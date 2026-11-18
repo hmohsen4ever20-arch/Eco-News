@@ -38,15 +38,31 @@ def translate_text(text, sl="en", tl="fa"):
     if not text or not text.strip():
         return ""
     text = text.strip()[:2500]
-    url = "https://translate.googleapis.com/translate_a/single"
-    params = {"client": "gtx", "sl": sl, "tl": tl, "dt": "t", "q": text}
+
+    # سرور اول (اصلی)
+    url1 = "https://translate.googleapis.com/translate_a/single"
+    params1 = {"client": "gtx", "sl": sl, "tl": tl, "dt": "t", "q": text}
     try:
-        res = requests.get(url, params=params, headers=HEADERS, timeout=12)
+        res = requests.get(url1, params=params1, headers=HEADERS, timeout=12)
         if res.status_code == 200:
             data = res.json()
             return "".join([part[0] for part in data[0] if part[0]]).strip()
+    except Exception:
+        pass
+
+    # سرور دوم (پشتیبان خودکار در صورت محدودیت موقت IP سرور اول)
+    url2 = "https://clients5.google.com/translate_a/t"
+    params2 = {"client": "dict-chrome-ex", "sl": sl, "tl": tl, "q": text}
+    try:
+        res2 = requests.get(url2, params=params2, headers=HEADERS, timeout=12)
+        if res2.status_code == 200:
+            data2 = res2.json()
+            if isinstance(data2, list) and len(data2) > 0:
+                if isinstance(data2[0], list):
+                    return "".join([part[0] for part in data2 if part and part[0]]).strip()
+                return str(data2[0]).strip()
     except Exception as e:
-        print(f"Translate error ({sl}->{tl}): {e}")
+        print(f"Backup translate error ({sl}->{tl}): {e}")
     return ""
 
 def clean_html(raw_html):
