@@ -1,0 +1,39 @@
+name: Auto Fetch & Translate Global Economy News
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Economy News Scraper & Translator
+        run: python fetch_news.py
+
+      - name: Commit, Push & Purge jsDelivr Cache
+        run: |
+          git config --global user.name "Eco News Bot"
+          git config --global user.email "bot@github.com"
+          git add news.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update global economy news"
+            git push
+            curl -s "https://purge.jsdelivr.net/gh/frankalayari-beep/econews@main/news.json" || true
+          fi
