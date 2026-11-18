@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Eco News</title>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #060d0b;
+      --surface: #0f1c18;
+      --surface-light: #182b25;
+      --emerald: #10b981;
+      --emerald-light: #34d399;
+      --gold: #f59e0b;
+      --gold-light: #fbbf24;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --border: #1d332c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Vazirmatn', sans-serif; -webkit-tap-highlight-color: transparent; user-select: none; }
+    body { background: var(--bg); color: var(--text); padding-bottom: 30px; overflow-x: hidden; }
+
+    /* App Header */
+    .app-bar {
+      position: sticky; top: 0; z-index: 40;
+      background: rgba(6, 13, 11, 0.95); backdrop-filter: blur(14px);
+      padding: 12px 16px; border-bottom: 1px solid var(--border);
+    }
+    .top-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; gap: 8px; }
+    .header-actions { display: flex; align-items: center; gap: 8px; }
+
+    /* Language Flag Switcher (Iran & UK Flags) */
+    .lang-switch {
+      display: flex; align-items: center; gap: 5px;
+      background: var(--surface); border: 1px solid var(--border);
+      padding: 4px; border-radius: 11px; height: 42px;
+    }
+    .flag-btn {
+      width: 34px; height: 32px; border-radius: 8px; border: 1.5px solid transparent;
+      background: transparent; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; padding: 3px; opacity: 0.45; transition: all 0.2s ease;
+    }
+    .flag-btn.active {
+      opacity: 1; border-color: var(--gold-light);
+      background: rgba(245, 158, 11, 0.18);
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.35);
+      transform: scale(1.04);
+    }
+    .flag-svg { width: 24px; height: 17px; border-radius: 3px; display: block; object-fit: cover; }
+
+    .drawer-btn {
+      background: var(--surface); border: 1px solid var(--border); color: var(--text);
+      width: 42px; height: 42px; border-radius: 11px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; position: relative; flex-shrink: 0;
+    }
+    .saved-count-dot {
+      position: absolute; top: -4px; right: -4px; background: var(--gold-light); color: #000;
+      font-size: 0.65rem; font-weight: 900; width: 18px; height: 18px; border-radius: 50%;
+      display: none; align-items: center; justify-content: center;
+    }
+    .brand-logo {
+      display: flex; align-items: center; gap: 8px; direction: ltr;
+      font-size: 1.24rem; font-weight: 900; letter-spacing: 1.2px; color: #fff;
+    }
+    .eco-header-svg { width: 28px; height: 28px; filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.55)); }
+    .brand-highlight { color: var(--gold-light); }
+
+    /* Search Box */
+    .search-wrap { position: relative; width: 100%; margin-bottom: 10px; }
+    .search-icon {
+      position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+      width: 18px; height: 18px; color: var(--muted); pointer-events: none;
+    }
+    html[dir="ltr"] .search-icon { right: auto; left: 14px; }
+    .search-input {
+      width: 100%; background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); padding: 10px 42px 10px 14px; border-radius: 12px;
+      font-size: 0.88rem; outline: none;
+    }
+    html[dir="ltr"] .search-input { padding: 10px 14px 10px 42px; }
+    .search-input:focus { border-color: var(--gold-light); }
+
+    /* Filter, Sort & Refresh Toolbar */
+    .toolbar { display: grid; grid-template-columns: 1fr 1fr 42px; gap: 8px; align-items: center; }
+    .tool-btn {
+      background: var(--surface); border: 1px solid var(--border); color: var(--text);
+      height: 40px; padding: 0 10px; border-radius: 11px; font-size: 0.78rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer;
+      white-space: nowrap; overflow: hidden;
+    }
+    .tool-btn svg { width: 16px; height: 16px; color: var(--gold-light); flex-shrink: 0; }
+    .refresh-icon-btn {
+      background: var(--surface); border: 1px solid var(--border); color: var(--emerald-light);
+      width: 42px; height: 40px; border-radius: 11px;
+      display: flex; align-items: center; justify-content: center; cursor: pointer;
+      transition: transform 0.25s ease;
+    }
+    .refresh-icon-btn:active { transform: rotate(180deg); border-color: var(--gold-light); }
+
+    /* Feed Container & Swipeable Hot Hero Slider */
+    .container { padding: 14px 16px; max-width: 600px; margin: 0 auto; }
+    .hero-slider {
+      position: relative; border-radius: 18px; overflow: hidden; height: 248px;
+      margin-bottom: 18px; border: 1px solid rgba(245, 158, 11, 0.38);
+      background: #000; touch-action: pan-y;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+    .hero-slide-inner {
+      width: 100%; height: 100%; position: relative; cursor: pointer;
+      animation: fadeSlide 0.28s ease-out;
+    }
+    @keyframes fadeSlide {
+      from { opacity: 0.45; transform: scale(1.02); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .hero-slide-inner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(6,13,11,0.98) 14%, rgba(6,13,11,0.2) 100%);
+      display: flex; flex-direction: column; justify-content: flex-end; padding: 16px 16px 26px;
+    }
+    .bookmark-Quick {
+      position: absolute; top: 12px; left: 12px; z-index: 6;
+      background: rgba(6, 13, 11, 0.82); backdrop-filter: blur(6px);
+      border: 1px solid var(--border); width: 36px; height: 36px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; cursor: pointer; color: #fff;
+    }
+    html[dir="ltr"] .bookmark-Quick { left: auto; right: 12px; }
+    .bookmark-Quick.saved { background: var(--gold-light); color: #000; border-color: var(--gold-light); }
+    .hot-tag-row { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+    .hot-badge {
+      background: linear-gradient(135deg, #10b981, #b45309); color: #fff;
+      font-size: 0.7rem; font-weight: 900; padding: 3px 10px; border-radius: 6px;
+      box-shadow: 0 2px 10px rgba(16, 185, 129, 0.4);
+    }
+    .news-code-badge {
+      background: rgba(245, 158, 11, 0.2); border: 1px solid rgba(251, 191, 36, 0.45);
+      color: var(--gold-light); font-size: 0.7rem; font-weight: 800; padding: 3px 9px; border-radius: 6px;
+    }
+    .hero-title { font-size: 1.02rem; font-weight: 800; line-height: 1.55; color: #fff; margin-bottom: 6px; }
+    .hero-date { font-size: 0.7rem; color: var(--muted); }
+    .slider-dots {
+      position: absolute; bottom: 9px; left: 50%; transform: translateX(-50%);
+      display: flex; gap: 6px; z-index: 6;
+    }
+    .dot {
+      width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,0.35);
+      transition: all 0.25s ease; cursor: pointer;
+    }
+    .dot.active { width: 20px; border-radius: 10px; background: var(--gold-light); }
+
+    /* News List */
+    .news-list { display: flex; flex-direction: column; gap: 12px; }
+    .news-item {
+      position: relative; display: flex; gap: 12px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 14px; padding: 10px; align-items: center; cursor: pointer;
+    }
+    .thumb { width: 96px; height: 86px; border-radius: 10px; object-fit: cover; flex-shrink: 0; background: #000; }
+    .item-content { flex: 1; min-width: 0; }
+    .item-top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+    .item-code { font-size: 0.72rem; color: var(--gold-light); font-weight: 800; }
+    .item-bookmark {
+      background: transparent; border: none; color: var(--muted); padding: 4px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .item-bookmark.saved { color: var(--gold-light); }
+    .item-title {
+      font-size: 0.88rem; font-weight: 700; line-height: 1.55; color: var(--text);
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 6px;
+    }
+    .item-date { font-size: 0.68rem; color: var(--muted); }
+
+    /* Full Article View */
+    .article-page {
+      position: fixed; inset: 0; background: var(--bg); z-index: 90;
+      overflow-y: auto; display: none; flex-direction: column;
+    }
+    .article-page.open { display: flex; }
+    .article-topbar {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(6, 13, 11, 0.94); backdrop-filter: blur(12px);
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 14px; border-bottom: 1px solid var(--border); gap: 6px;
+    }
+    .article-actions { display: flex; align-items: center; gap: 6px; }
+    .top-btn {
+      background: var(--surface); color: var(--text); border: 1px solid var(--border);
+      padding: 7px 11px; border-radius: 10px; font-size: 0.78rem; font-weight: 700;
+      display: flex; align-items: center; gap: 5px; cursor: pointer; white-space: nowrap;
+    }
+    .top-btn.saved { background: var(--gold-light); color: #000; border-color: var(--gold-light); }
+    .article-container { max-width: 600px; margin: 0 auto; width: 100%; padding-bottom: 40px; }
+    .article-hero-img { width: 100%; height: 245px; object-fit: cover; display: block; background: #000; }
+    .article-body { padding: 18px 16px; }
+    .article-meta-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 0.76rem; color: var(--muted); }
+    .article-headline { font-size: 1.18rem; font-weight: 900; line-height: 1.65; color: #fff; margin-bottom: 16px; user-select: text; }
+    .article-lead {
+      background: var(--surface); border-right: 4px solid var(--gold-light);
+      padding: 12px 14px; border-radius: 8px; font-size: 0.9rem; font-weight: 700;
+      line-height: 1.8; color: #e2e8f0; margin-bottom: 18px; user-select: text;
+    }
+    html[dir="ltr"] .article-lead { border-right: none; border-left: 4px solid var(--gold-light); }
+    .article-paragraph { font-size: 0.95rem; line-height: 2; color: #cbd5e1; margin-bottom: 16px; text-align: justify; user-select: text; }
+
+    /* Left Slide-out Drawer (Silver Metallic Theme) */
+    .drawer-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.72); z-index: 110;
+      display: none;
+    }
+    .drawer-backdrop.open { display: block; }
+    .left-drawer {
+      position: fixed; top: 0; bottom: 0; left: 0; width: 85%; max-width: 340px;
+      background: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 100%);
+      color: #0f172a;
+      border-right: 2px solid #94a3b8; z-index: 120;
+      transform: translateX(-100%); transition: transform 0.25s ease;
+      display: flex; flex-direction: column;
+      box-shadow: 6px 0 24px rgba(0,0,0,0.5);
+    }
+    .left-drawer.open { transform: translateX(0); }
+    .drawer-header {
+      padding: 14px 16px; border-bottom: 1px solid #94a3b8;
+      background: rgba(255, 255, 255, 0.55);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .drawer-title { font-size: 0.95rem; font-weight: 900; color: #0f172a; }
+    .drawer-close-btn {
+      background: #0f172a; color: #fff; border: none;
+      width: 32px; height: 32px; border-radius: 8px; font-weight: 800; cursor: pointer;
+    }
+    .drawer-body { flex: 1; overflow-y: auto; padding: 12px; }
+    .drawer-body .news-item {
+      background: #f8fafc; border: 1px solid #94a3b8;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+    }
+    .drawer-body .item-title { color: #0f172a; }
+    .drawer-body .item-code { color: #b45309; }
+    .drawer-body .status { color: #334155; font-weight: 700; }
+    .drawer-footer {
+      padding: 12px 14px; border-top: 1px solid #94a3b8; background: #cbd5e1;
+      display: flex; flex-direction: column; gap: 7px;
+    }
+    .footer-link {
+      background: #f8fafc; border: 1px solid #94a3b8; color: #0f172a;
+      padding: 9px 12px; border-radius: 10px; font-size: 0.8rem; font-weight: 800;
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+    }
+
+    /* Filter / Sort / Info Sheet Modal */
+    .sheet-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 130;
+      display: none; align-items: flex-end; justify-content: center;
+    }
+    .sheet-backdrop.open { display: flex; }
+    .sheet-box {
+      background: var(--surface); width: 100%; max-width: 600px;
+      border-radius: 22px 22px 0 0; padding: 18px; border-top: 1px solid var(--border);
+      max-height: 80vh; overflow-y: auto;
+    }
+    .sheet-title { font-size: 0.98rem; font-weight: 800; margin-bottom: 14px; color: var(--gold-light); }
+    .option-list { display: flex; flex-direction: column; gap: 8px; }
+    .option-item {
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      padding: 11px 14px; border-radius: 11px; font-size: 0.86rem; font-weight: 700;
+      display: flex; justify-content: space-between; align-items: center; cursor: pointer;
+    }
+    .option-item.selected { border-color: var(--gold-light); color: var(--gold-light); background: rgba(245, 158, 11, 0.12); }
+
+    /* Exit Confirmation Toast */
+    .exit-toast {
+      position: fixed; bottom: 26px; left: 50%; transform: translateX(-50%) translateY(20px);
+      background: rgba(15, 23, 42, 0.96); color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      padding: 11px 20px; border-radius: 30px; font-size: 0.84rem; font-weight: 800;
+      z-index: 5000; opacity: 0; pointer-events: none; white-space: nowrap;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.65);
+      transition: opacity 0.22s ease, transform 0.22s ease;
+    }
+    .exit-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* Dark Screen + Rising Bull Market Emerald/Gold Lights + Financial Emblem Intro Splash */
+    .eco-splash {
+      position: fixed; inset: 0; z-index: 9500;
+      background: #020605;
+      display: none; flex-direction: column; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .eco-splash.active { display: flex; }
+
+    .rising-lights-wrap {
+      position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+    }
+    .light-wave {
+      position: absolute; left: -10%; right: -10%; bottom: -120%; height: 120%;
+      background: linear-gradient(to top,
+        rgba(16, 185, 129, 0) 0%,
+        rgba(16, 185, 129, 0.3) 40%,
+        rgba(245, 158, 11, 0.75) 85%,
+        #ffffff 100%
+      );
+      filter: blur(28px);
+      opacity: 0;
+    }
+    .beam {
+      position: absolute; bottom: -100%; width: 5px; height: 95%;
+      background: linear-gradient(to top, transparent, #10b981, #fbbf24, #ffffff);
+      box-shadow: 0 0 22px #10b981, 0 0 45px #f59e0b;
+      border-radius: 99px; opacity: 0;
+    }
+    .beam.b1 { left: 18%; width: 4px; }
+    .beam.b2 { left: 34%; width: 7px; }
+    .beam.b3 { left: 50%; width: 9px; }
+    .beam.b4 { left: 66%; width: 7px; }
+    .beam.b5 { left: 82%; width: 4px; }
+
+    .eco-splash.animate .light-wave {
+      animation: waveRiseUp 3.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .eco-splash.animate .beam {
+      animation: beamRiseUp 2.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .eco-splash.animate .beam.b2, .eco-splash.animate .beam.b4 { animation-delay: 0.12s; }
+    .eco-splash.animate .beam.b1, .eco-splash.animate .beam.b5 { animation-delay: 0.24s; }
+
+    @keyframes waveRiseUp {
+      0% { bottom: -120%; opacity: 0; }
+      20% { opacity: 0.95; }
+      75% { bottom: 30%; opacity: 0.75; }
+      100% { bottom: 110%; opacity: 0; }
+    }
+    @keyframes beamRiseUp {
+      0% { bottom: -100%; opacity: 0; }
+      25% { opacity: 1; }
+      80% { bottom: 40%; opacity: 0.85; }
+      100% { bottom: 120%; opacity: 0; }
+    }
+
+    .eco-emblem {
+      position: relative; z-index: 2;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      opacity: 0.04;
+      filter: brightness(0.1) blur(4px);
+      transform: translateY(18px) scale(0.9);
+    }
+    .eco-splash.animate .eco-emblem {
+      animation: ecoIlluminate 3.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .splash-eco-svg {
+      width: 156px; height: 156px; margin-bottom: 14px;
+    }
+    .splash-eco-title {
+      font-size: 2.35rem; font-weight: 900; letter-spacing: 4px; direction: ltr;
+      background: linear-gradient(90deg, #34d399 0%, #fde047 50%, #f59e0b 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 28px rgba(245, 158, 11, 0.75);
+    }
+
+    @keyframes ecoIlluminate {
+      0%, 18% {
+        opacity: 0.04;
+        filter: brightness(0.1) blur(4px);
+        transform: translateY(18px) scale(0.9);
+      }
+      45% {
+        opacity: 0.85;
+        filter: brightness(1.3) blur(0px) drop-shadow(0 12px 35px rgba(245, 158, 11, 0.9));
+        transform: translateY(0px) scale(1.02);
+      }
+      72% {
+        opacity: 1;
+        filter: brightness(1.55) drop-shadow(0 0 42px rgba(251, 191, 36, 1)) drop-shadow(0 0 85px rgba(16, 185, 129, 0.85));
+        transform: translateY(0px) scale(1.06);
+      }
+      88% {
+        opacity: 1;
+        filter: brightness(1.3) drop-shadow(0 0 28px rgba(245, 158, 11, 0.85));
+        transform: scale(1.03);
+      }
+      100% {
+        opacity: 0;
+        filter: brightness(1.7) blur(3px);
+        transform: scale(1.1);
+      }
+    }
+
+    /* Mandatory Adsterra Overlay */
+    .ad-overlay {
+      position: fixed; inset: 0; background: #000; z-index: 9999;
+      display: none; flex-direction: column;
+    }
+    .ad-overlay.open { display: flex; }
+    .ad-close-btn {
+      position: absolute; top: 16px; right: 16px; z-index: 10000;
+      width: 40px; height: 40px; border-radius: 50%;
+      background: rgba(15, 28, 24, 0.92); border: 2px solid var(--gold-light);
+      color: #fff; font-size: 1.2rem; font-weight: 900;
+      display: none; align-items: center; justify-content: center; cursor: pointer;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+    }
+    .ad-iframe { width: 100%; height: 100%; border: none; background: #060d0b; }
+    .status { text-align: center; padding: 50px 20px; color: var(--muted); font-size: 0.88rem; }
+  </style>
+</head>
+<body>
+
+  <!-- تبلیغ اجباری ۱۵ ثانیه‌ای (بدون نمایش تایمر به کاربر) -->
+  <div class="ad-overlay" id="ad-overlay">
+    <button class="ad-close-btn" id="ad-close-btn" onclick="closeAd()">✕</button>
+    <iframe class="ad-iframe" id="ad-iframe" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+  </div>
+
+  <!-- صفحه تاریک + نورهای مدرن صعودکننده + روشن شدن نماد اقتصاد جهانی و Eco News -->
+  <div class="eco-splash" id="eco-splash">
+    <div class="rising-lights-wrap">
+      <div class="light-wave"></div>
+      <div class="beam b1"></div>
+      <div class="beam b2"></div>
+      <div class="beam b3"></div>
+      <div class="beam b4"></div>
+      <div class="beam b5"></div>
+    </div>
+    <div class="eco-emblem">
+      <svg class="splash-eco-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- قاب سکه و کره اقتصاد جهانی -->
+        <circle cx="60" cy="60" r="48" fill="#091914" stroke="url(#ecoGoldGrad)" stroke-width="4"/>
+        <!-- کندل‌های صعودی بازار مالی -->
+        <rect x="30" y="62" width="10" height="24" rx="3" fill="#10B981"/>
+        <rect x="48" y="48" width="10" height="38" rx="3" fill="#34D399"/>
+        <rect x="66" y="36" width="10" height="50" rx="3" fill="#F59E0B"/>
+        <rect x="84" y="24" width="10" height="62" rx="3" fill="#FDE047"/>
+        <!-- فلش صعودی طلایی -->
+        <path d="M26 56L48 38L64 46L90 20" stroke="#FDE047" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M76 20H90V34" stroke="#FDE047" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="ecoGoldGrad" x1="12" y1="12" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE047"/>
+            <stop offset="0.5" stop-color="#F59E0B"/>
+            <stop offset="1" stop-color="#10B981"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="splash-eco-title">Eco News</div>
+    </div>
+  </div>
+
+  <!-- اعلان خروج دو مرحله‌ای با خط سفید در پایین صفحه -->
+  <div class="exit-toast" id="exit-toast">جهت خروج از برنامه، یک‌بار دیگر دکمه بازگشت را بزنید</div>
+
+  <!-- هدر اصلی اپ -->
+  <header class="app-bar">
+    <div class="top-row">
+      <!-- برند: نمودار صعودی طلایی و سبز + ECO NEWS -->
+      <div class="brand-logo">
+        <svg class="eco-header-svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="52" height="48" rx="10" fill="#091914" stroke="#F59E0B" stroke-width="3"/>
+          <rect x="15" y="34" width="7" height="14" rx="2" fill="#10B981"/>
+          <rect x="28" y="26" width="7" height="22" rx="2" fill="#34D399"/>
+          <rect x="41" y="18" width="7" height="30" rx="2" fill="#FBBF24"/>
+          <path d="M15 28L29 18L38 23L49 13" stroke="#FDE047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>ECO <span class="brand-highlight">NEWS</span></span>
+      </div>
+
+      <!-- کلیدهای پرچم ایران و انگلیس + زبانه سه خطی -->
+      <div class="header-actions">
+        <div class="lang-switch" title="تغییر زبان / Switch Language">
+          <!-- پرچم ایران (ترجمه به فارسی) -->
+          <button class="flag-btn active" id="flag-fa-main" onclick="setLanguage('fa')" title="فارسی">
+            <svg class="flag-svg" viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg">
+              <rect width="28" height="20" fill="#fff"/>
+              <rect width="28" height="6.66" y="0" fill="#239f40"/>
+              <rect width="28" height="6.66" y="13.34" fill="#da0000"/>
+              <circle cx="14" cy="10" r="2.2" fill="none" stroke="#da0000" stroke-width="1.1"/>
+              <line x1="14" y1="7.5" x2="14" y2="12.5" stroke="#da0000" stroke-width="1.1"/>
+            </svg>
+          </button>
+          <!-- پرچم انگلیس (ترجمه به انگلیسی) -->
+          <button class="flag-btn" id="flag-en-main" onclick="setLanguage('en')" title="English">
+            <svg class="flag-svg" viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg">
+              <rect width="28" height="20" fill="#012169"/>
+              <path d="M0,0 L28,20 M28,0 L0,20" stroke="#fff" stroke-width="4"/>
+              <path d="M0,0 L28,20 M28,0 L0,20" stroke="#C8102E" stroke-width="2"/>
+              <path d="M14,0 V20 M0,10 H28" stroke="#fff" stroke-width="6"/>
+              <path d="M14,0 V20 M0,10 H28" stroke="#C8102E" stroke-width="3.4"/>
+            </svg>
+          </button>
+        </div>
+
+        <button class="drawer-btn" onclick="openDrawer()" title="منو و اخبار نشان‌شده">
+          <span class="saved-count-dot" id="saved-badge">0</span>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- کادر جستجو -->
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="search" class="search-input" placeholder="جستجو در اخبار" />
+    </div>
+
+    <!-- نوار ابزار: فیلتر + مرتب‌سازی + بروزرسانی -->
+    <div class="toolbar">
+      <button class="tool-btn" id="filter-btn" onclick="openFilterSheet()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+        </svg>
+        <span id="filter-label">فیلتر: همه اخبار</span>
+      </button>
+
+      <button class="tool-btn" id="sort-btn" onclick="openSortSheet()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <line x1="4" y1="6" x2="13" y2="6"></line>
+          <line x1="4" y1="12" x2="11" y2="12"></line>
+          <line x1="4" y1="18" x2="11" y2="18"></line>
+          <polyline points="15 15 18 18 21 15"></polyline>
+          <line x1="18" y1="6" x2="18" y2="18"></line>
+        </svg>
+        <span id="sort-label">مرتب‌سازی: جدیدترین</span>
+      </button>
+
+      <button class="refresh-icon-btn" onclick="loadNews(true)" title="بروزرسانی اخبار">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <polyline points="1 20 1 14 7 14"></polyline>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- لیست اصلی اخبار -->
+  <main class="container" id="app-content">
+    <div class="status">در حال بارگذاری اخبار اقتصاد جهان...</div>
+  </main>
+
+  <!-- صفحه کامل خبر داخل اپ -->
+  <div class="article-page" id="article-page">
+    <div class="article-topbar">
+      <button class="top-btn" id="article-back-btn" onclick="closeArticle()">→ بازگشت</button>
+      <div class="article-actions">
+        <div class="lang-switch" style="height:36px;padding:2px">
+          <button class="flag-btn active" id="flag-fa-art" style="width:28px;height:28px" onclick="setLanguage('fa')">
+            <svg class="flag-svg" viewBox="0 0 28 20"><rect width="28" height="20" fill="#fff"/><rect width="28" height="6.66" y="0" fill="#239f40"/><rect width="28" height="6.66" y="13.34" fill="#da0000"/><circle cx="14" cy="10" r="2.2" fill="none" stroke="#da0000" stroke-width="1.1"/></svg>
+          </button>
+          <button class="flag-btn" id="flag-en-art" style="width:28px;height:28px" onclick="setLanguage('en')">
+            <svg class="flag-svg" viewBox="0 0 28 20"><rect width="28" height="20" fill="#012169"/><path d="M0,0 L28,20 M28,0 L0,20" stroke="#fff" stroke-width="4"/><path d="M0,0 L28,20 M28,0 L0,20" stroke="#C8102E" stroke-width="2"/><path d="M14,0 V20 M0,10 H28" stroke="#fff" stroke-width="6"/><path d="M14,0 V20 M0,10 H28" stroke="#C8102E" stroke-width="3.4"/></svg>
+          </button>
+        </div>
+
+        <button class="top-btn" id="article-share-btn" onclick="shareCurrentArticle()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+          </svg>
+          <span id="share-btn-text">اشتراک‌گذاری</span>
+        </button>
+        <button class="top-btn" id="article-bookmark-btn">نشان کردن</button>
+      </div>
+    </div>
+    <div class="article-container" id="article-content"></div>
+  </div>
+
+  <!-- منوی کشویی سمت چپ با پس‌زمینه نقره‌ای -->
+  <div class="drawer-backdrop" id="drawer-backdrop" onclick="closeDrawer()"></div>
+  <aside class="left-drawer" id="left-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title" id="drawer-title-text">اخبار نشان‌شده</span>
+      <button class="drawer-close-btn" onclick="closeDrawer()">✕</button>
+    </div>
+    <div class="drawer-body" id="saved-list"></div>
+    <div class="drawer-footer">
+      <button class="footer-link" onclick="openInfoModal('about')">
+        <span id="menu-about-text">درباره ما</span>
+        <span>❮</span>
+      </button>
+      <button class="footer-link" onclick="openInfoModal('rules')">
+        <span id="menu-rules-text">قوانین و مقررات</span>
+        <span>❮</span>
+      </button>
+      <button class="footer-link" onclick="openInfoModal('contact')">
+        <span id="menu-contact-text">تماس با ما</span>
+        <span>❮</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- پنجره پایین‌صفحه -->
+  <div class="sheet-backdrop" id="sheet-backdrop" onclick="if(event.target===this) closeSheet()">
+    <div class="sheet-box" id="sheet-box"></div>
+  </div>
+
+  <script>
+    const GITHUB_REPO = "frankalayari-beep/econews";
+    const CDN_JSON_URL = `https://cdn.jsdelivr.net/gh/${GITHUB_REPO}@main/news.json`;
+    const FALLBACK_JSON_URL = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/news.json`;
+
+    // لینک تبلیغاتی اختصاصی شما
+    const ADSTERRA_URL = "https://asiafilm.org/4/052064ca4ffd0916d363a8d4ca962a64";
+
+    let allNews = [];
+    let savedMap = JSON.parse(localStorage.getItem('en_saved_news') || '{}');
+    let currentLang = localStorage.getItem('en_lang') || 'fa';
+    let currentFilter = 'ALL';
+    let currentSort = 'NEWEST';
+    let adOpen = false;
+    let splashOpen = false;
+    let isFirstStartupAd = true;
+    let lastBackPressTime = 0;
+
+    let hotHeroList = [];
+    let currentHeroIndex = 0;
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    const UI_TEXT = {
+      fa: {
+        dir: 'rtl',
+        searchPlaceholder: 'جستجو در اخبار',
+        filterPrefix: 'فیلتر',
+        sortPrefix: 'مرتب‌سازی',
+        filterModalTitle: 'فیلتر موضوعی اخبار اقتصادی',
+        sortModalTitle: 'مرتب‌سازی بر اساس',
+        hotBadge: '🔥 داغ و پربازدید',
+        newsCode: 'شماره خبر:',
+        backBtn: '→ بازگشت',
+        shareBtn: 'اشتراک‌گذاری',
+        bookmarkBtn: 'نشان کردن',
+        bookmarkedBtn: '✓ نشان‌شده',
+        drawerTitle: 'اخبار نشان‌شده',
+        emptySaved: 'هنوز خبری را نشان نکرده‌اید.',
+        emptyFeed: 'خبری با این مشخصات یافت نشد.',
+        syncing: 'در حال بروزرسانی آخرین اخبار اقتصاد جهان...',
+        translating: 'در حال ترجمه به فارسی...',
+        copiedToast: 'متن خبر برای اشتراک‌گذاری کپی شد',
+        exitToast: 'جهت خروج از برنامه، یک‌بار دیگر دکمه بازگشت را بزنید',
+        aboutMenu: 'درباره ما',
+        rulesMenu: 'قوانین و مقررات',
+        contactMenu: 'تماس با ما',
+        filters: {
+          'ALL': 'همه اخبار',
+          'markets': 'بازارهای جهانی و بورس',
+          'forex_gold': 'طلا، ارز و کامودیتی',
+          'macro': 'اقتصاد کلان و بانک‌ها',
+          'energy': 'نفت و انرژی',
+          'crypto': 'رمزارز و فین‌تک',
+          'trade': 'تجارت و شرکت‌ها'
+        },
+        sorts: {
+          'NEWEST': 'جدیدترین',
+          'OLDEST': 'قدیمی‌ترین',
+          'SAVED_FIRST': 'نشان‌شده‌ها در صدر'
+        }
+      },
+      en: {
+        dir: 'ltr',
+        searchPlaceholder: 'Search in economy news...',
+        filterPrefix: 'Filter',
+        sortPrefix: 'Sort',
+        filterModalTitle: 'Filter Economy News',
+        sortModalTitle: 'Sort News By',
+        hotBadge: '🔥 Market Movers',
+        newsCode: 'News #',
+        backBtn: '← Back',
+        shareBtn: 'Share',
+        bookmarkBtn: 'Bookmark',
+        bookmarkedBtn: '✓ Saved',
+        drawerTitle: 'Saved News',
+        emptySaved: 'No bookmarked news yet.',
+        emptyFeed: 'No matching economy news found.',
+        syncing: 'Refreshing global economy news...',
+        translating: 'Switching to English...',
+        copiedToast: 'Article copied to clipboard!',
+        exitToast: 'Press back again to exit Eco News',
+        aboutMenu: 'About Us',
+        rulesMenu: 'Terms & Privacy',
+        contactMenu: 'Contact Us',
+        filters: {
+          'ALL': 'All Economy News',
+          'markets': 'Global Markets & Stocks',
+          'forex_gold': 'Gold, Forex & Commodities',
+          'macro': 'Macroeconomics & Central Banks',
+          'energy': 'Oil & Energy',
+          'crypto': 'Crypto & Fintech',
+          'trade': 'Global Trade & Companies'
+        },
+        sorts: {
+          'NEWEST': 'Newest',
+          'OLDEST': 'Oldest',
+          'SAVED_FIRST': 'Bookmarked First'
+        }
+      }
+    };
+
+    function formatNewsDate(isoStr) {
+      try {
+        const d = isoStr ? new Date(isoStr) : new Date();
+        if (isNaN(d.getTime())) return currentLang === 'fa' ? 'امروز' : 'Today';
+        if (currentLang === 'fa') {
+          return new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
+            year: 'numeric', month: 'long', day: 'numeric',
+            hour: '2-digit', minute: '2-digit'
+          }).format(d);
+        } else {
+          return new Intl.DateTimeFormat('en-GB', {
+            year: 'numeric', month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit'
+          }).format(d);
+        }
+      } catch (e) {
+        return '';
+      }
+    }
+
+    function getItemTitle(item) {
+      if (currentLang === 'en') {
+        return item.title_en || item.original_title || item.title;
+      }
+      return item.title;
+    }
+
+    function getItemParagraphs(item) {
+      if (currentLang === 'en') {
+        if (Array.isArray(item.content_en) && item.content_en.length > 0) return item.content_en;
+        if (item.summary_en) return [item.summary_en];
+      }
+      return Array.isArray(item.content) && item.content.length > 0 ? item.content : [item.summary || ''];
+    }
+
+    async function translateOnTheFly(text, sl, tl) {
+      if (!text) return '';
+      try {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=${tl}&dt=t&q=${encodeURIComponent(text.slice(0, 1800))}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        return data[0].map(x => x[0]).join('');
+      } catch (e) {
+        return text;
+      }
+    }
+
+    async function ensureEnglishTranslations() {
+      const missing = allNews.filter(n => !n.title_en);
+      if (!missing.length) return;
+
+      const separator = " ||| ";
+      const batchTitles = missing.map(n => n.title).join(separator);
+      const translatedBatch = await translateOnTheFly(batchTitles, 'fa', 'en');
+      const parts = translatedBatch.split(/\s*\|\|\|\s*/);
+
+      missing.forEach((item, idx) => {
+        item.title_en = parts[idx] || item.title;
+      });
+
+      renderHeroSlide();
+      renderListOnly();
+    }
+
+    async function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('en_lang', lang);
+      const t = UI_TEXT[lang];
+
+      document.documentElement.lang = lang;
+      document.documentElement.dir = t.dir;
+
+      ['main', 'art'].forEach(pos => {
+        const btnFa = document.getElementById(`flag-fa-${pos}`);
+        const btnEn = document.getElementById(`flag-en-${pos}`);
+        if (btnFa && btnEn) {
+          btnFa.classList.toggle('active', lang === 'fa');
+          btnEn.classList.toggle('active', lang === 'en');
+        }
+      });
+
+      document.getElementById('search').placeholder = t.searchPlaceholder;
+      document.getElementById('filter-label').textContent = `${t.filterPrefix}: ${t.filters[currentFilter]}`;
+      document.getElementById('sort-label').textContent = `${t.sortPrefix}: ${t.sorts[currentSort]}`;
+      document.getElementById('article-back-btn').textContent = t.backBtn;
+      document.getElementById('share-btn-text').textContent = t.shareBtn;
+      document.getElementById('drawer-title-text').textContent = t.drawerTitle;
+      document.getElementById('menu-about-text').textContent = t.aboutMenu;
+      document.getElementById('menu-rules-text').textContent = t.rulesMenu;
+      document.getElementById('menu-contact-text').textContent = t.contactMenu;
+
+      if (lang === 'en') {
+        showToast(t.translating);
+        await ensureEnglishTranslations();
+      } else {
+        showToast('زبان برنامه به فارسی تغییر یافت');
+      }
+
+      render();
+      if (document.getElementById('article-page').classList.contains('open') && window.currentOpenArticle) {
+        openArticleById(window.currentOpenArticle.news_id);
+      }
+      if (document.getElementById('left-drawer').classList.contains('open')) {
+        renderSavedDrawer();
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('exit-toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(window.toastTimer);
+      window.toastTimer = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2400);
+    }
+
+    function triggerMandatoryAd() {
+      if (!ADSTERRA_URL) return;
+      adOpen = true;
+      const overlay = document.getElementById('ad-overlay');
+      const closeBtn = document.getElementById('ad-close-btn');
+      const iframe = document.getElementById('ad-iframe');
+
+      closeBtn.style.display = 'none';
+      iframe.src = ADSTERRA_URL;
+      overlay.classList.add('open');
+
+      setTimeout(() => {
+        closeBtn.style.display = 'flex';
+      }, 15000);
+    }
+
+    function closeAd() {
+      adOpen = false;
+      document.getElementById('ad-overlay').classList.remove('open');
+      document.getElementById('ad-iframe').src = 'about:blank';
+
+      if (isFirstStartupAd) {
+        isFirstStartupAd = false;
+        playEcoIntroSplash();
+      }
+    }
+
+    function playEcoIntroSplash() {
+      splashOpen = true;
+      const splash = document.getElementById('eco-splash');
+      splash.classList.add('active', 'animate');
+      setTimeout(() => {
+        splash.classList.remove('active', 'animate');
+        splashOpen = false;
+      }, 3400);
+    }
+
+    setInterval(() => {
+      if (!adOpen && !splashOpen) triggerMandatoryAd();
+    }, 30 * 60 * 1000);
+
+    function updateSavedBadge() {
+      const count = Object.keys(savedMap).length;
+      const badge = document.getElementById('saved-badge');
+      badge.textContent = count;
+      badge.style.display = count > 0 ? 'flex' : 'none';
+    }
+
+    function toggleBookmarkById(newsId, ev) {
+      if (ev) ev.stopPropagation();
+      const item = allNews.find(n => String(n.news_id) === String(newsId)) || savedMap[String(newsId)];
+      if (!item) return;
+      const key = String(item.news_id || item.link);
+      if (savedMap[key]) {
+        delete savedMap[key];
+      } else {
+        savedMap[key] = item;
+      }
+      localStorage.setItem('en_saved_news', JSON.stringify(savedMap));
+      updateSavedBadge();
+      renderHeroSlide();
+      renderListOnly();
+      if (document.getElementById('left-drawer').classList.contains('open')) {
+        renderSavedDrawer();
+      }
+    }
+
+    function isBookmarked(item) {
+      return Boolean(savedMap[String(item.news_id || item.link)]);
+    }
+
+    function computeHotScore(item) {
+      let score = 0;
+      const text = `${item.title} ${(item.content || []).join(' ')}`;
+      const hotKeywords = [
+        "طلا", "دلار", "تورم", "فدرال رزرو", "نرخ بهره", "نفت", "بیت‌کوین",
+        "بورس", "سهام", "وال استریت", "بانک مرکزی", "رشد اقتصادی", "رکود",
+        "چین", "آمریکا", "اروپا", "فوری", "رکورد", "صندوق بین‌المللی پول"
+      ];
+      hotKeywords.forEach(kw => {
+        if (text.includes(kw)) score += 18;
+      });
+      if (Array.isArray(item.content)) score += item.content.length * 4;
+      if (item.image && !item.image.includes("unsplash.com")) score += 25;
+      return score + ((item.news_id || 1000) * 0.05);
+    }
+
+    async function loadNews(manual = false) {
+      const container = document.getElementById('app-content');
+      const t = UI_TEXT[currentLang];
+      if (manual) showToast(t.syncing);
+      try {
+        const cacheBuster = manual ? Date.now() : Math.floor(Date.now() / 60000);
+        let res = await fetch(`${CDN_JSON_URL}?t=${cacheBuster}`);
+        if (!res.ok) {
+          res = await fetch(`${FALLBACK_JSON_URL}?t=${Date.now()}`);
+        }
+        if (!res.ok) {
+          res = await fetch(`./news.json?t=${Date.now()}`);
+        }
+        if (!res.ok) throw new Error();
+        const raw = await res.json();
+        allNews = raw.map((item, idx) => ({
+          ...item,
+          news_id: item.news_id || (1000 + raw.length - idx),
+          category: item.category || 'macro'
+        }));
+        if (currentLang === 'en') {
+          await ensureEnglishTranslations();
+        }
+        render();
+      } catch (e) {
+        container.innerHTML = `<div class="status">${t.syncing}</div>`;
+      }
+    }
+
+    function render() {
+      const container = document.getElementById('app-content');
+      const t = UI_TEXT[currentLang];
+      const q = document.getElementById('search').value.trim().toLowerCase();
+
+      let list = allNews.filter(n => {
+        const matchCat = currentFilter === 'ALL' || n.category === currentFilter;
+        const titleText = getItemTitle(n).toLowerCase();
+        const bodyText = getItemParagraphs(n).join(' ').toLowerCase();
+        const matchQ = !q || titleText.includes(q) || bodyText.includes(q);
+        return matchCat && matchQ;
+      });
+
+      if (currentSort === 'NEWEST') {
+        list.sort((a, b) => (b.news_id || 0) - (a.news_id || 0));
+      } else if (currentSort === 'OLDEST') {
+        list.sort((a, b) => (a.news_id || 0) - (b.news_id || 0));
+      } else if (currentSort === 'SAVED_FIRST') {
+        list.sort((a, b) => Number(isBookmarked(b)) - Number(isBookmarked(a)) || (b.news_id - a.news_id));
+      }
+
+      if (!list.length) {
+        container.innerHTML = `<div class="status">${t.emptyFeed}</div>`;
+        return;
+      }
+
+      const scored = [...list].sort((a, b) => computeHotScore(b) - computeHotScore(a));
+      hotHeroList = scored.slice(0, Math.min(5, scored.length));
+      if (currentHeroIndex >= hotHeroList.length) currentHeroIndex = 0;
+
+      const hotIds = new Set(hotHeroList.map(h => h.news_id));
+      window.currentRemainingList = list.filter(n => !hotIds.has(n.news_id));
+      if (!window.currentRemainingList.length) {
+        window.currentRemainingList = list.slice(1);
+      }
+
+      container.innerHTML = `
+        <div class="hero-slider" id="hero-slider"></div>
+        <div class="news-list" id="news-list-box"></div>
+      `;
+
+      setupHeroTouchEvents();
+      renderHeroSlide();
+      renderListOnly();
+    }
+
+    function renderHeroSlide() {
+      const slider = document.getElementById('hero-slider');
+      if (!slider || !hotHeroList.length) return;
+      const t = UI_TEXT[currentLang];
+      const hero = hotHeroList[currentHeroIndex];
+      const heroSaved = isBookmarked(hero);
+
+      const dotsHtml = hotHeroList.map((_, idx) =>
+        `<span class="dot ${idx === currentHeroIndex ? 'active' : ''}" onclick="goToHeroSlide(${idx}, event)"></span>`
+      ).join('');
+
+      slider.innerHTML = `
+        <div class="hero-slide-inner" onclick="openArticleById(${hero.news_id})">
+          <button class="bookmark-Quick ${heroSaved ? 'saved' : ''}" onclick="toggleBookmarkById(${hero.news_id}, event)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="${heroSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+            </svg>
+          </button>
+          <img src="${hero.image}" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80'" />
+          <div class="hero-overlay">
+            <div class="hot-tag-row">
+              <span class="hot-badge">${t.hotBadge} (${currentHeroIndex + 1}/${hotHeroList.length})</span>
+              <span class="news-code-badge">${t.newsCode} ${hero.news_id}</span>
+            </div>
+            <h2 class="hero-title">${getItemTitle(hero)}</h2>
+            <div class="hero-date">${formatNewsDate(hero.timestamp)}</div>
+          </div>
+          <div class="slider-dots">${dotsHtml}</div>
+        </div>
+      `;
+    }
+
+    function goToHeroSlide(idx, ev) {
+      if (ev) ev.stopPropagation();
+      currentHeroIndex = idx;
+      renderHeroSlide();
+    }
+
+    function nextHeroSlide() {
+      if (hotHeroList.length <= 1) return;
+      currentHeroIndex = (currentHeroIndex + 1) % hotHeroList.length;
+      renderHeroSlide();
+    }
+
+    function prevHeroSlide() {
+      if (hotHeroList.length <= 1) return;
+      currentHeroIndex = (currentHeroIndex - 1 + hotHeroList.length) % hotHeroList.length;
+      renderHeroSlide();
+    }
+
+    function setupHeroTouchEvents() {
+      const slider = document.getElementById('hero-slider');
+      if (!slider) return;
+
+      slider.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      slider.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        const diff = touchEndX - touchStartX;
+        if (Math.abs(diff) > 38) {
+          if (diff < 0) nextHeroSlide();
+          else prevHeroSlide();
+        }
+      }, { passive: true });
+    }
+
+    function renderListOnly() {
+      const listBox = document.getElementById('news-list-box');
+      if (!listBox) return;
+      const t = UI_TEXT[currentLang];
+      const rest = window.currentRemainingList || [];
+
+      listBox.innerHTML = rest.map(item => {
+        const saved = isBookmarked(item);
+        return `
+          <div class="news-item" onclick="openArticleById(${item.news_id})">
+            <img class="thumb" src="${item.image}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80'" />
+            <div class="item-content">
+              <div class="item-top-bar">
+                <span class="item-code">${t.newsCode} ${item.news_id}</span>
+                <button class="item-bookmark ${saved ? 'saved' : ''}" onclick="toggleBookmarkById(${item.news_id}, event)">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="${saved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.2">
+                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                  </svg>
+                </button>
+              </div>
+              <h3 class="item-title">${getItemTitle(item)}</h3>
+              <div class="item-date">${formatNewsDate(item.timestamp)}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function openArticleById(newsId) {
+      const item = allNews.find(n => String(n.news_id) === String(newsId)) || savedMap[String(newsId)];
+      if (!item) return;
+      window.currentOpenArticle = item;
+      const t = UI_TEXT[currentLang];
+
+      if (currentLang === 'en' && (!item.content_en || !item.content_en.length)) {
+        const rawFa = Array.isArray(item.content) && item.content.length ? item.content.join('\n\n') : (item.summary || '');
+        const trBody = await translateOnTheFly(rawFa, 'fa', 'en');
+        item.content_en = trBody.split('\n').map(p => p.trim()).filter(Boolean);
+        if (!item.title_en) {
+          item.title_en = await translateOnTheFly(item.title, 'fa', 'en');
+        }
+      }
+
+      const paragraphs = getItemParagraphs(item);
+      const leadText = paragraphs[0] || '';
+      const bodyParagraphs = paragraphs.slice(1);
+      const bodyHtml = (bodyParagraphs.length ? bodyParagraphs : [leadText])
+        .map(p => `<p class="article-paragraph">${p}</p>`).join('');
+
+      document.getElementById('article-content').innerHTML = `
+        <img class="article-hero-img" src="${item.image}" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80'" />
+        <div class="article-body">
+          <div class="article-meta-row">
+            <span class="news-code-badge" style="margin:0">${t.newsCode} ${item.news_id}</span>
+            <span>${formatNewsDate(item.timestamp)}</span>
+          </div>
+          <h1 class="article-headline">${getItemTitle(item)}</h1>
+          <div class="article-lead">${leadText}</div>
+          ${bodyHtml}
+        </div>
+      `;
+
+      syncArticleBookmarkBtn();
+      const page = document.getElementById('article-page');
+      page.classList.add('open');
+      page.scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function shareCurrentArticle() {
+      const item = window.currentOpenArticle;
+      if (!item) return;
+      const t = UI_TEXT[currentLang];
+      const paragraphs = getItemParagraphs(item);
+      const title = getItemTitle(item);
+      const shareText = currentLang === 'fa'
+        ? `📈 ${title}\n\n${paragraphs[0]}\n\n💰 خبر شماره ${item.news_id} در اپلیکیشن Eco News`
+        : `📈 ${title}\n\n${paragraphs[0]}\n\n💰 News #${item.news_id} on Eco News App`;
+
+      if (navigator.share) {
+        navigator.share({ title, text: shareText }).catch(() => {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(shareText);
+        showToast(t.copiedToast);
+      }
+    }
+
+    function syncArticleBookmarkBtn() {
+      const btn = document.getElementById('article-bookmark-btn');
+      const item = window.currentOpenArticle;
+      if (!item) return;
+      const t = UI_TEXT[currentLang];
+      const saved = isBookmarked(item);
+      btn.className = `top-btn ${saved ? 'saved' : ''}`;
+      btn.textContent = saved ? t.bookmarkedBtn : t.bookmarkBtn;
+      btn.onclick = () => {
+        toggleBookmarkById(item.news_id);
+        syncArticleBookmarkBtn();
+      };
+    }
+
+    function closeArticle() {
+      document.getElementById('article-page').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function openDrawer() {
+      renderSavedDrawer();
+      document.getElementById('drawer-backdrop').classList.add('open');
+      document.getElementById('left-drawer').classList.add('open');
+    }
+
+    function closeDrawer() {
+      document.getElementById('drawer-backdrop').classList.remove('open');
+      document.getElementById('left-drawer').classList.remove('open');
+    }
+
+    function renderSavedDrawer() {
+      const box = document.getElementById('saved-list');
+      const t = UI_TEXT[currentLang];
+      const list = Object.values(savedMap).sort((a, b) => (b.news_id || 0) - (a.news_id || 0));
+
+      if (!list.length) {
+        box.innerHTML = `<div class="status">${t.emptySaved}</div>`;
+        return;
+      }
+
+      box.innerHTML = `<div class="news-list">` + list.map(item => `
+        <div class="news-item" onclick="closeDrawer(); openArticleById(${item.news_id})">
+          <img class="thumb" src="${item.image}" style="width:72px;height:68px" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80'" />
+          <div class="item-content">
+            <div class="item-top-bar">
+              <span class="item-code">${t.newsCode} ${item.news_id}</span>
+              <button class="item-bookmark saved" style="color:#dc2626;font-weight:900" onclick="toggleBookmarkById(${item.news_id}, event)">✕</button>
+            </div>
+            <h3 class="item-title" style="font-size:0.82rem">${getItemTitle(item)}</h3>
+          </div>
+        </div>
+      `).join('') + `</div>`;
+    }
+
+    function openFilterSheet() {
+      const t = UI_TEXT[currentLang];
+      const box = document.getElementById('sheet-box');
+      box.innerHTML = `
+        <div class="sheet-title">${t.filterModalTitle}</div>
+        <div class="option-list">
+          ${Object.entries(t.filters).map(([k, label]) => `
+            <div class="option-item ${currentFilter === k ? 'selected' : ''}" onclick="setFilter('${k}')">
+              <span>${label}</span>
+              <span>${currentFilter === k ? '✓' : ''}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      document.getElementById('sheet-backdrop').classList.add('open');
+    }
+
+    function setFilter(k) {
+      currentFilter = k;
+      currentHeroIndex = 0;
+      const t = UI_TEXT[currentLang];
+      document.getElementById('filter-label').textContent = `${t.filterPrefix}: ${t.filters[k]}`;
+      closeSheet();
+      render();
+    }
+
+    function openSortSheet() {
+      const t = UI_TEXT[currentLang];
+      const box = document.getElementById('sheet-box');
+      box.innerHTML = `
+        <div class="sheet-title">${t.sortModalTitle}</div>
+        <div class="option-list">
+          ${Object.entries(t.sorts).map(([k, label]) => `
+            <div class="option-item ${currentSort === k ? 'selected' : ''}" onclick="setSort('${k}')">
+              <span>${label}</span>
+              <span>${currentSort === k ? '✓' : ''}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      document.getElementById('sheet-backdrop').classList.add('open');
+    }
+
+    function setSort(k) {
+      currentSort = k;
+      const t = UI_TEXT[currentLang];
+      document.getElementById('sort-label').textContent = `${t.sortPrefix}: ${t.sorts[k]}`;
+      closeSheet();
+      render();
+    }
+
+    function openInfoModal(type) {
+      closeDrawer();
+      const box = document.getElementById('sheet-box');
+      if (currentLang === 'en') {
+        if (type === 'about') {
+          box.innerHTML = `
+            <div class="sheet-title">About Us</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              <strong>Eco News</strong> is a smart, real-time global economic and financial news platform covering International Stock Markets, Gold & Forex, Macroeconomics, Central Banks, Energy, and Fintech in a modern bilingual interface.
+            </p>
+          `;
+        } else if (type === 'rules') {
+          box.innerHTML = `
+            <div class="sheet-title">Terms & Privacy Policy</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              1. Eco News aggregates and translates real-time global economic news for informational purposes only.<br><br>
+              2. This app does not collect or store any personal user data; bookmarked articles are stored locally on your device.
+            </p>
+          `;
+        } else {
+          box.innerHTML = `
+            <div class="sheet-title">Contact Us</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              For feedback, partnerships, and advertising inquiries, contact the Eco News team:<br><br>
+              <strong style="color:var(--gold-light)">Support: econews.app@gmail.com</strong>
+            </p>
+          `;
+        }
+      } else {
+        if (type === 'about') {
+          box.innerHTML = `
+            <div class="sheet-title">درباره ما</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              اپلیکیشن <strong>Eco News</strong> مرجع تخصصی و هوشمند پوشش لحظه‌ای اخبار اقتصاد جهانی، بازارهای مالی، طلا و ارز، نفت و انرژی، بانک‌های مرکزی و تجارت بین‌الملل است. هدف ما ارائه سریع، دقیق و دوزبانه مهم‌ترین تحولات اقتصادی دنیا در محیطی مدرن و کاربرپسند است.
+            </p>
+          `;
+        } else if (type === 'rules') {
+          box.innerHTML = `
+            <div class="sheet-title">قوانین و مقررات و حریم خصوصی</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              ۱. اپلیکیشن Eco News یک پلتفرم خبری در حوزه اقتصاد بین‌الملل است و مطالب آن صرفاً جنبه اطلاع‌رسانی اقتصادی دارد.<br><br>
+              ۲. این برنامه هیچ‌گونه اطلاعات شخصی یا حریم خصوصی از کاربران دریافت یا ذخیره نمی‌کند و اخبار نشان‌شده صرفاً در حافظه دستگاه شما نگهداری می‌شوند.
+            </p>
+          `;
+        } else {
+          box.innerHTML = `
+            <div class="sheet-title">تماس با ما</div>
+            <p class="article-paragraph" style="font-size:0.86rem">
+              پیشنهادات، انتقادات و درخواست‌های همکاری و تبلیغات خود را می‌توانید از طریق ایمیل پشتیبانی با تیم توسعه Eco News در میان بگذارید:<br><br>
+              <strong style="color:var(--gold-light)">Support: econews.app@gmail.com</strong>
+            </p>
+          `;
+        }
+      }
+      document.getElementById('sheet-backdrop').classList.add('open');
+    }
+
+    function closeSheet() {
+      document.getElementById('sheet-backdrop').classList.remove('open');
+    }
+
+    window.handleAndroidBack = function() {
+      if (adOpen || splashOpen) return "BLOCKED";
+      if (document.getElementById('sheet-backdrop').classList.contains('open')) {
+        closeSheet();
+        return "HANDLED";
+      }
+      if (document.getElementById('left-drawer').classList.contains('open')) {
+        closeDrawer();
+        return "HANDLED";
+      }
+      if (document.getElementById('article-page').classList.contains('open')) {
+        closeArticle();
+        return "HANDLED";
+      }
+
+      const now = Date.now();
+      if (now - lastBackPressTime < 2400) {
+        return "EXIT";
+      } else {
+        lastBackPressTime = now;
+        showToast(UI_TEXT[currentLang].exitToast);
+        return "HANDLED";
+      }
+    };
+
+    document.getElementById('search').addEventListener('input', render);
+    updateSavedBadge();
+    triggerMandatoryAd();
+    loadNews();
+  </script>
+</body>
+</html>
