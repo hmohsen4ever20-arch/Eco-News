@@ -1,5 +1,841 @@
 [
   {
+    "title": "آنتروپیک، سازنده کلود، در آستانه عرضه بیش از 1.4 تریلیون دلاری در بازار سهام است",
+    "summary": "داریو آمودی، مدیر عامل آنتروپیک به سرعت به یکی از برجسته ترین نام ها در صنعت فناوری تبدیل شده است.",
+    "content": [
+      "داریو آمودی، مدیر عامل آنتروپیک به سرعت به یکی از برجسته ترین نام ها در صنعت فناوری تبدیل شده است.",
+      "زمانی که آنتروپیک در بازار سهام عمومی عرضه می شود، ارزش آن به بیش از 1.4 تریلیون دلار (1.1 تریلیون پوند) می رسد.",
+      "شرکت هوش مصنوعی (AI) که پشت ربات چت محبوب کلود قرار دارد، اعلام کرد که در روز پنجشنبه در بورس Nasdaq، یک بورس اوراق بهادار مبتنی بر فناوری مستقر در نیویورک، هر سهام را 83 دلار قیمت گذاری خواهد کرد.",
+      "این قیمت آن را به یکی از با ارزش ترین شرکت ها در جهان تبدیل می کند.",
+      "این اولین شرکت آمریکایی خواهد بود که به طور انحصاری بر روی هوش مصنوعی متمرکز می شود که به صورت عمومی عرضه می شود، و این یک آزمون مهم برای صنعت در حال رشد سریع است، که با سؤالاتی در مورد اینکه آیا سرمایه گذاری عظیمی که در این فناوری ریخته می شود، سودآور است یا خیر.",
+      "این شرکت هوش مصنوعی در اوایل این ماه گفت که احتمالاً سهام خود را بین 70 تا 78 دلار برای هر یک عرضه می کند که ارزش شرکت را تا 1.3 تریلیون دلار می کند.",
+      "اما به گفته یکی از سرمایه گذاران اولیه این شرکت که به شرط ناشناس ماندن با بی بی سی صحبت می کرد، تقاضا برای اولین سهام آنتروپیک - که معمولاً به آن عرضه عمومی اولیه یا IPO گفته می شود - بسیار زیاد است.",
+      "اگر اینطور باشد، ارزش گذاری آنتروپیک می تواند به سرعت از هدف خود در روز پنج شنبه با شروع معاملات عبور کند."
+    ],
+    "title_en": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
+    "summary_en": "Anthropic CEO Dario Amodei has quickly become one of the most notable names in the technology industry.",
+    "content_en": [
+      "Anthropic CEO Dario Amodei has quickly become one of the most notable names in the technology industry.",
+      "Anthropic is poised to hit a value of more than $1.4 trillion (Â£1.1 trillion) when it debuts on the public stock market.",
+      "The artificial intelligence (AI) company behind the popular chatbot Claude said it will price shares at $83 each when it lists on Thursday on the Nasdaq, a tech-focused stock exchange based in New York.",
+      "That price will make it one of the most highly valued companies in the world.",
+      "It will be the first US firm focused exclusively on AI to go public, marking a crucial test for the fast-growing industry, which facesquestions over whether the huge investmentpoured into the technology will be profitable.",
+      "The AI firm said earlier this month it would likely offer its shares for between $70 and $78 each, which valued the company at up to $1.3tn.",
+      "But demand for Anthropic's stock debut - commonly referred to as its initial public offering, or IPO - is very high, according to one early investor in the company who spoke with the BBC on condition of anonymity.",
+      "If that turns out to be the case, Anthropic's valuation could quickly blow past its target on Thursday when trading begins."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg",
+    "timestamp": "2026-11-19T01:50:03.545654Z",
+    "news_id": 1088
+  },
+  {
+    "title": "آیا رکوردشکنی IPO Anthropic می تواند مانع از ترکیدن حباب هوش مصنوعی شود؟",
+    "summary": "در نوامبر 2020 بود که در جایی در سانفرانسیسکو، زنی به نام دانیلا آمودی با یکی از دوستانش تماس گرفت و از او راهنمایی خواست.",
+    "content": [
+      "در نوامبر 2020 بود که در جایی در سانفرانسیسکو، زنی به نام دانیلا آمودی با یکی از دوستانش تماس گرفت و از او راهنمایی خواست.",
+      "دانیلا بر ایمنی و سیاست در OpenAI، یکی از پرمخاطب ترین شرکت های هوش مصنوعی در جهان نظارت داشت.",
+      "اما دانیلا و برادرش داریو - که در آنجا هم کار می‌کرد - نسبت به سطح ایمنی در OpenAI تردید داشتند و فکر می‌کردند که زمان آن رسیده است.",
+      "بنابراین او کاری را انجام داد که وقتی ما نمی‌توانیم در مورد چیزی تصمیم بگیریم، بسیاری انجام می‌دهند، او به یک دوست تلفن زد. پاسخ دوست صریح و دقیق بود: \"نیازی نیست با من تلفنی باشید. شما جواب را می دانید.\"",
+      "خواهران و برادران آمودی و تعداد انگشت شماری از همکاران دیگر دست از کار کشیدند. آنها با هم رقیب «آنتروپیک» را راه اندازی کردند.",
+      "بر اساس برآوردهای تحلیلگران، شش سال بعد، آنتروپیک، سازنده مدل پیشرو هوش مصنوعی کلود، درآمدی معادل 52 میلیارد دلار در سال 2026 و 135 میلیارد دلار در سال 2027 پیش بینی کرده است.",
+      "این شرکت قصد دارد برای اولین بار سهام خود را در آنچه به عنوان عرضه اولیه عمومی یا IPO شناخته می شود، به عموم بفروشد، با هدف ارزش گذاری تخمینی 1.4 تریلیون دلار (1 تریلیون پوند)، که مستقیماً آن را وارد 10 شرکت برتر ایالات متحده می کند.",
+      "این فروش در زمانی بسیار مهم انجام می‌شود که بسیاری در این فکر هستند که آیا در میان نگرانی‌های فزاینده در مورد پتانسیل هوش مصنوعی، حباب صنعت نشانه‌هایی از ترکیدن را نشان می‌دهد یا خیر."
+    ],
+    "title_en": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+    "summary_en": "It was during November 2020 that somewhere in San Francisco, a woman called Daniela Amodei phoned a friend, asking for advice.",
+    "content_en": [
+      "It was during November 2020 that somewhere in San Francisco, a woman called Daniela Amodei phoned a friend, asking for advice.",
+      "Daniela oversaw safety and policy at OpenAI, one of the most talked-about AI companies in the world.",
+      "But Daniela and her brother Dario - who worked there too - had misgivings over safety levels at OpenAI and thought it could be time to walk away.",
+      "So she did what many do when we can't make a decision about something, she phoned a friend. The friend's reply was direct and to the point: \"You don't need to be on the phone with me. You already know the answer.\"",
+      "The Amodei siblings and a handful of other colleagues quit. Together, they set up a rival â Anthropic.",
+      "Six years on and Anthropic, the maker of leading AI model Claude, has predicted revenues of $52bn in 2026 and $135bn in 2027, according to analyst estimates.",
+      "It is about to sell shares to the public for the first time in what's known as an Initial Public Offering or IPO, aiming for a valuation of an estimated $1.4tn (Â£1tn), which would propel it straight into the top 10 of the most valuable US companies.",
+      "The sale comes at a crucial time when many are wondering whether, amid increasing concern about the potential of AI, the industry's bubble is showing signs of bursting."
+    ],
+    "category": "macro",
+    "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
+    "timestamp": "2026-11-19T01:50:05.271826Z",
+    "news_id": 1087
+  },
+  {
+    "title": "سوء استفاده جنسی مک دونالد: \"آنها منتظر بودند تا دختران جوانتر 18 ساله شوند\"",
+    "summary": "یکی از کارمندان سابق مک دونالد که می‌گوید یک مدیر نتوانست از او محافظت کند زمانی که مشتری‌ها او را مورد آزار و اذیت جنسی قرار می‌دادند، از شرکت خواسته بود «روش رفتارشان با کارمندان جوان‌تر» را تغییر د...",
+    "content": [
+      "یکی از کارمندان سابق مک دونالد که می‌گوید یک مدیر نتوانست از او محافظت کند زمانی که مشتری‌ها او را مورد آزار و اذیت جنسی قرار می‌دادند، از شرکت خواسته بود «روش رفتارشان با کارمندان جوان‌تر» را تغییر دهد.",
+      "هوپ که در سال 2023 در شعبه ای در وست میدلندز کار می کرد، به بی بی سی نیوز نیز گفت که همکاران مسن تر را دید که به کارگران 16 و 17 ساله چشم دوخته بودند و در مورد اینکه می خواهند وقتی 18 ساله شوند با آنها بخوابند صحبت می کردند.",
+      "هوپ یکی از صدها کارگری است که ادعای تبعیض علیه مک دونالد دارد. این هفته، یک قاضی علیه تلاش مک‌دونالد برای حذف ادعاهایشان حکم داد، اقدامی که هوپ از آن استقبال کرد.",
+      "مک دونالد گفت: \"تضمین یک محیط کاری امن، محترمانه و فراگیر در رستوران ها و دفاتر ما یک اولویت اساسی است.\"",
+      "آخرین تحولات پس از تحقیقات بی‌بی‌سی در سال 2023 رخ داد که شنیده بود کارگران، برخی از آنها در سن 17 سالگی، مورد آزار و اذیت قرار می‌گیرند.",
+      "سال گذشته، کارکنان مک دونالد به ما گفتند که هنوز با آزار و اذیت جنسی روبرو هستند.",
+      "رئیس مک دونالد در مورد ادعای سوء استفاده: من نمی خواهم در مورد گذشته صحبت کنم",
+      "هوپ که اکنون 22 ساله است، می گوید که شعبه مک دونالدز او محیطی بسیار جنسی و \"سمی\" داشت."
+    ],
+    "title_en": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+    "summary_en": "A former McDonald's worker who says a manager failed to protect her when she was being sexualised by customers, has called on the firm to âchange the way they treat younger employeesâ.",
+    "content_en": [
+      "A former McDonald's worker who says a manager failed to protect her when she was being sexualised by customers, has called on the firm to âchange the way they treat younger employeesâ.",
+      "Hope, who worked at a branch in the West Midlands in 2023, also told BBC News she saw older colleagues eyeing up 16- and 17-year-old workers, and talking about wanting to sleep with them when they turned 18.",
+      "Hope is one of hundreds of workers bringing a discrimination claim against McDonald's. This week, a judge ruled against McDonald's attempt to have their claims struck out, a move that Hope welcomed.",
+      "McDonald's said: \"Ensuring a safe, respectful and inclusive working environment across our restaurants and offices remains a fundamental priority.\"",
+      "The latest developments come aftera BBC investigationin 2023 which heard that workers, some as young as 17, were being groped and harassed.",
+      "Last year, McDonald's staff told us they still faced sexual abuse and harassment.",
+      "McDonald's boss on abuse claims: 'I don't want to talk about the past'",
+      "Hope, who is now 22, says that her branch of McDonalds had a very sexualised, \"toxic\" environment."
+    ],
+    "category": "trade",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/decb/live/a6ef9570-e364-11f1-99a1-253766e7ad8b.jpg",
+    "timestamp": "2026-11-19T01:50:06.056957Z",
+    "news_id": 1086
+  },
+  {
+    "title": "Gilts v kilts: با اوراق قرضه دولتی اسکاتلند چه اتفاقی می افتد؟",
+    "summary": "دولت اسکاتلند با سؤالاتی در مورد برنامه خود برای انتشار اولین اوراق قرضه خود مواجه است.",
+    "content": [
+      "دولت اسکاتلند با سؤالاتی در مورد برنامه خود برای انتشار اولین اوراق قرضه خود مواجه است.",
+      "این اقدام به وزرا اجازه می‌دهد تا از سرمایه‌گذارانی که در ازای آن سود منظم دریافت می‌کنند، وام بگیرند.",
+      "هدف این است که تا پایان دوره پارلمانی حدود 1.5 میلیارد پوند جمع آوری شود و از این بودجه در پروژه های بلندمدت مانند ساخت بیمارستان یا تعمیر جاده ها استفاده شود.",
+      "این طرح با نام \"کیلت\"، اشاره ای به \"گلت\"های دولت بریتانیا، بحث های زیادی را برانگیخته است.",
+      "این هفته، MSPها در کمیته مالی Holyrood در مورد خطرات و مزایای بالقوه شنیدند.",
+      "اوراق قرضه یک ابزار مالی است که توسط دولت برای استقراض پول استفاده می شود. آنها با تعهد خریدار یا سرمایه گذار به فروش می رسند که در پایان مدت توافق شده بازپرداخت شود.",
+      "دولت همچنین به سرمایه گذار پرداخت های منظمی را انجام خواهد داد.",
+      "در انگلستان به اوراق قرضه دولتی گیلت می گویند. آنها معمولا توسط موسسات مالی مانند صندوق های بازنشستگی، شرکت های بیمه و بانک های تجاری خریداری می شوند."
+    ],
+    "title_en": "Gilts v kilts: What is happening with Scottish government bonds?",
+    "summary_en": "The Scottish government is facing questions about its plan to issue its first ever bonds.",
+    "content_en": [
+      "The Scottish government is facing questions about its plan to issue its first ever bonds.",
+      "The move would allow ministers to borrow money from investors who in return receive regular interest payments.",
+      "The aim is to raise about Â£1.5bn by the end of the parliamentary term, with the funds to be used on long-term projects such as building hospitals or maintaining roads.",
+      "Named \"kilts\", a nod to UK government \"gilts\", the scheme has provoked much debate.",
+      "This week, MSPs on Holyrood's finance committee heard about the potential risks and rewards.",
+      "A bond is a financial tool used by a government to borrow money. They are sold with a promise for the buyer, or investor, to be paid back at the end of an agreed term.",
+      "The government will also make regular payments to the investor.",
+      "In the UK, a government bond is called a gilt. They are typically bought by financial institutions such as pension funds, insurance companies and commercial banks."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bef5/live/7cbd5260-e35a-11f1-a094-5fdc692f3e33.jpg",
+    "timestamp": "2026-11-19T01:50:09.896656Z",
+    "news_id": 1085
+  },
+  {
+    "title": "چرا Waymo تمام خودروهای بدون راننده خود را از بزرگراه های ایالات متحده خارج کرده است؟",
+    "summary": "پس از اینکه کالیفرنیا این سرویس را به دلیل نگرانی های ایمنی ممنوع کرد، Waymo به طور موقت سواری بدون راننده در آزادراه های ایالات متحده را به حالت تعلیق درآورد.",
+    "content": [
+      "پس از اینکه کالیفرنیا این سرویس را به دلیل نگرانی های ایمنی ممنوع کرد، Waymo به طور موقت سواری بدون راننده در آزادراه های ایالات متحده را به حالت تعلیق درآورد.",
+      "دپارتمان وسایل نقلیه موتوری کالیفرنیا گفت یک سری از حوادث ترافیکی، از جمله ورود رباتاکسی به مناطق فعال ساختمانی، خطری قریب الوقوع برای امنیت عمومی به همراه دارد. Waymo در حال حاضر عملیات آزادراه را در سایر بازارهای ایالات متحده در حالی که عملکرد خودروهای خود را بررسی می کند، محدود کرده است.",
+      "Waymo در حال حاضر در 15 شهر ایالات متحده فعالیت می کند، اگرچه فقط در چند شهر از جمله سانفرانسیسکو و لس آنجلس، سواری آزادراه بدون راننده را ارائه می دهد."
+    ],
+    "title_en": "Why has Waymo pulled all its driverless cars from US freeways?",
+    "summary_en": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.",
+    "content_en": [
+      "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.",
+      "California's Department of Motor Vehicles said a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. Waymo has now restricted freeway operations in all other US markets while it reviews the performance of its vehicles.",
+      "Waymo currently operates in 15 US cities, though only offered driverless freeway rides in a handful of cities, including San Francisco and Los Angeles."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1cf8/live/3bc03860-e3a8-11f1-ae87-b7d1078e8448.jpg",
+    "timestamp": "2026-11-19T01:50:11.818882Z",
+    "news_id": 1084
+  },
+  {
+    "title": "بیشترین شغل برای جوانان 18 تا 24 ساله کجاست؟",
+    "summary": "اگر شما یکی از نزدیک به یک میلیون نفر از افراد 16 تا 24 ساله هستید که در آموزش، اشتغال یا آموزش نیستند - در غیر این صورت به عنوان \"Net\" شناخته می شوند - ممکن است تعجب کنید که از کجا شروع کنید.",
+    "content": [
+      "اگر شما یکی از نزدیک به یک میلیون نفر از افراد 16 تا 24 ساله هستید که در آموزش، اشتغال یا آموزش نیستند - در غیر این صورت به عنوان \"Net\" شناخته می شوند - ممکن است تعجب کنید که از کجا شروع کنید.",
+      "یک بررسی بزرگ با هدف کاهش تعداد Neets نشان می دهد که افراد زیر 25 سال باید از محل کار یا آموزش برای کمک به یافتن کار دائمی برخوردار شوند.",
+      "اما در محل زندگی شما چند شغل وجود دارد؟ از ابزار جستجوی ما برای پیدا کردن آن استفاده کنید.",
+      "برنهام می‌خواهد گزارش نیتز لحظه‌ای مهم باشد، شماره 10 می‌گوید، زیرا محافظه‌کاران از پیشنهادهای رفاهی و مالیاتی انتقاد می‌کنند.",
+      "جایی که زندگی می کنید اغلب تأثیر زیادی بر توانایی شما برای یافتن شغل خواهد داشت.",
+      "اندیشکده موسسه تحقیقات سیاست عمومی (IPPR) از آگهی های شغلی آنلاین برای کمک به شناسایی تعداد مشاغل خالی مناسب برای جوانان در منطقه ای که زندگی می کنند، نسبت به اندازه جمعیت محلی استفاده می کند.",
+      "از هوش مصنوعی برای کمک به شناسایی مشاغل استفاده می‌کرد که به طور کلی به عنوان نقش‌هایی که به تجربه یا تحصیلات نسبتاً کم نیاز داشتند، تعریف می‌شدند.",
+      "بر اساس تجزیه و تحلیل آن، آکسفوردشایر جنوبی 387 جای خالی مناسب به ازای هر 1000 جوان 18 تا 24 ساله در این منطقه داشت - بیشترین تعداد از هر مقام محلی. روترهام با 53 در 1000 کمترین را داشت."
+    ],
+    "title_en": "Where are the most jobs for 18-24 year-olds?",
+    "summary_en": "If you're one of the nearly one million people aged 16-24 not in education, employment or training - otherwise known as \"Neet\" - then you might be wondering where to start.",
+    "content_en": [
+      "If you're one of the nearly one million people aged 16-24 not in education, employment or training - otherwise known as \"Neet\" - then you might be wondering where to start.",
+      "Under-25s should be guaranteed job placements or training to help them find permanent work, a major review aimed at cutting the number of Neets will say.",
+      "But how many jobs are there where you live? Use our look-up tool to find out.",
+      "Burnham wants Neets report to be watershed moment, No 10 says, as Tories criticise welfare and tax proposals",
+      "Where you live will often have a big impact on your ability to find a job.",
+      "The Institute for Public Policy Research (IPPR) think tank used online job adverts to help identify the number of vacancies suitable for young people in the area they live, relative to the size of the local population.",
+      "It used AI to help identify the jobs, which were broadly defined as roles requiring relatively low experience or education.",
+      "According to its analysis, South Oxfordshire had 387 suitable vacancies per 1,000 18 to 24-year-olds in the area - the most of any local authority. Rotherham had the least, at 53 per 1,000."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0f7b/live/5b9d4c80-e345-11f1-99a1-253766e7ad8b.png",
+    "timestamp": "2026-11-19T01:50:12.647145Z",
+    "news_id": 1083
+  },
+  {
+    "title": "در ماه اکتبر در بحبوحه افزایش نرخ های وام مسکن، فروش خانه در ایالات متحده به پایین ترین حد در 16 سال اخیر رسید",
+    "summary": "فروش واحدهای ساخته شده در ماه اکتبر به 3.75 میلیون واحد کاهش یافت که 8.8 درصد نسبت به سال گذشته کاهش داشت و نرخ وام مسکن به بالاترین حد در سه سال اخیر رسید.",
+    "content": [
+      "فروش واحدهای ساخته شده در ماه اکتبر به 3.75 میلیون واحد کاهش یافت که 8.8 درصد نسبت به سال گذشته کاهش داشت و نرخ وام مسکن به بالاترین حد در سه سال اخیر رسید.",
+      "بر اساس داده‌های جدیدی که روز چهارشنبه منتشر شد، فروش خانه‌های موجود در ایالات متحده در ماه اکتبر به پایین‌ترین حد خود در 16 سال گذشته رسید، زیرا خریداران به دلیل نرخ بالای وام مسکن و افزایش تورم رانده شدند.",
+      "انجمن ملی مشاوران املاک (NAR) گزارش داد که فروش واحدهای از قبل ساخته شده در اکتبر به 3.75 میلیون کاهش یافته است که نسبت به سال گذشته 8.8 درصد کاهش داشته است. میانگین قیمت فروش خانه های موجود کمی افزایش یافت و به 416700 دلار رسید. کاهش در فروش در غرب میانه، جنوب و غرب مشاهده شد، اگرچه فروش در شمال شرق ثابت بود.",
+      "نرخ‌های وام مسکن در سال‌های 2024 و 2025 به‌طور پیوسته در حال کاهش بود و نرخ 30 ساله برای اولین بار در فوریه 2026 به زیر 6 درصد رسید. اما افزایش تورم و نرخ‌های بهره بالاتر در بحبوحه جنگ ایران، نرخ‌ها را به بالاترین حد در سه سال اخیر رساند.",
+      "نرخ وام مسکن 30 ساله، که متداول ترین نرخ مورد استفاده در وام مسکن است، اکنون در حدود 7.18 درصد است، نه چندان دور از بالاترین نرخ خود در سال 2023 که 7.79 درصد بود. در طول همه گیری، متوسط ​​نرخ وام مسکن فقط بالای 3٪ بود.",
+      "لارنس یون، اقتصاددان ارشد NAR، «خرید خانه زمانی دشوار است که نرخ وام مسکن به بالاترین سطح خود از سال 2000، به غیر از یک ماه در سال 2023 رسیده است. در نتیجه، فروش خانه به پایین ترین سطح خود از آگوست 2010 کاهش یافت.",
+      "فروش مسکن معلق، یا تعداد قراردادهایی که قبل از بسته شدن امضا شده اند، در سپتامبر به پایین ترین سطح خود در تاریخ NAR رسید، همان ماهی که نرخ وام مسکن 30 ساله برای اولین بار در دو سال گذشته به 7 درصد رسید.",
+      "نرخ‌های وام مسکن به‌طور مستقیم تحت‌تاثیر تغییرات نرخ بهره توسط فدرال رزرو ایالات متحده قرار گرفته‌اند، که در سپتامبر برای اولین بار از سال 2023، نرخ بهره را افزایش داد. نرخ‌ها در حال حاضر در محدوده 3.75% تا 4% قرار دارند."
+    ],
+    "title_en": "US home sales hit 16-year low in October amid soaring mortgage rates",
+    "summary_en": "Sales of built units fell to 3.75m in October, down by 8.8% from last year, with mortgage rates at nearly three-year high",
+    "content_en": [
+      "Sales of built units fell to 3.75m in October, down by 8.8% from last year, with mortgage rates at nearly three-year high",
+      "US existing home sales hit a 16-year low in October as buyers were driven away by highmortgage ratesand rising inflation, according to new data released on Wednesday.",
+      "Sales of already built units dropped to 3.75m in October, down by 8.8% from last year, the National Association of Realtors (NAR)reported. The median existing-home sales price increased slightly to $416,700. Declines in sales were seen in the midwest, south and west, though sales in the north-east held steady.",
+      "Mortgage rates had been steadily declining in 2024 and 2025, with the 30-year rate falling below 6% for the first time in February 2026. But increasing inflation and higher interest rates amid theIran warhave pushed rates back up to a nearly three-year high.",
+      "The 30-year mortgage rate, which is the most commonly used rate in home loans, is now hovering at about 7.18%, not far from its 2023 high of 7.79%. During the pandemic, average mortgage rates were just above 3%.",
+      "“Home buying is difficult when mortgage rates have climbed to their highest levels since 2000, aside from a single month in 2023,” Lawrence Yun, chief economist at the NAR. “As a result, home sales fell to their lowest level since August 2010.”",
+      "Pending home sales, or the number of contracts that have been signed before closing, reached its lowest levels in the NAR’s history in September, the same month that the 30-year mortgage ratetopped 7%for the first time in nearly two years.",
+      "Mortgage rates have been directly affected by interest rate changes by the US Federal Reserve, which in Septemberhikedinterest rates for the first time since 2023. Rates currently sit at a range of 3.75% to 4%."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
+    "image": "https://i.guim.co.uk/img/media/861fa365835f36d65c4fe3a0adf09f6b63ba43ad/142_0_2344_1875/master/2344.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=301ac70f1ed47dff9ef24f77382d1dfd",
+    "timestamp": "2026-11-19T01:50:14.359672Z",
+    "news_id": 1082
+  },
+  {
+    "title": "آنجلا ایگل می‌گوید: قرارداد بریتانیا و اتحادیه اروپا 60 میلیون پوند در سال از هزینه‌های تجارت گیاهان را منحل می‌کند.",
+    "summary": "امضای توافق نامه برای جابجایی روان مواد غذایی، گیاهان و حیوانات در هفته آینده، مبالغ هنگفتی را که بنگاه ها مجبور به خرج کرده اند، جبران نخواهد کرد.",
+    "content": [
+      "امضای توافق نامه برای جابجایی روان مواد غذایی، گیاهان و حیوانات در هفته آینده، مبالغ هنگفتی را که بنگاه ها مجبور به خرج کرده اند، جبران نخواهد کرد.",
+      "وزیر محیط زیست گفت: حذف بررسی‌های مرزی و کاغذبازی‌ها در مورد واردات گیاهان، ۶۰ میلیون پوند از هزینه‌های سالانه صنعت باغبانی را در زمانی که توافق جدید بریتانیا و اتحادیه اروپا پس از برگزیت امضا می‌شود، «از بین می‌برد».",
+      "قبل از اجلاس سران بریتانیا و اتحادیه اروپا در 20 نوامبر، آنجلا ایگل گفت امیدوار است که دردسرهای کاغذبازی برای واردکنندگان پس از تغییرات \"ناپدید\" شود، اگرچه این اقدام به کسب و کارها کمکی نمی کند تا مبالغ زیادی را که برای مقابله با کنترل های مرزی هزینه کرده اند، جبران کنند.",
+      "ایگل در جریان بازدید از یک نهالستان در کنت به گاردین گفت: \"اگر ما جوهر را در 20 نوامبر خشک کنیم، که من بسیار امیدوارم ... همه آن عدم اطمینان، هزینه های اضافی، کاغذبازی و مشکلات احتمالی در صورت گیرکردن چیزها در مرزها همه از بین می روند.\"",
+      "\"هزینه، یعنی 60 میلیون پوند، فقط می تواند از بین برود و پتانسیل مردم برای صادرات مجدد به اتحادیه اروپا و ورود واردات خود به ... آسان تر و قابل پیش بینی تر می شود.\"",
+      "خروج بریتانیا از بلوک باعث وارد شدن و صادرات محصولات گیاهی، مواد غذایی و حیوانی، از سوسیس و پنیر گرفته تا درختان و کالاهای چرمی شد.",
+      "بر اساس تجزیه و تحلیل اتحادیه ملی کشاورزان، صادرات مواد غذایی و نوشیدنی بریتانیا به اتحادیه اروپا بیش از یک سوم از زمان برگزیت سقوط کرده است و تولیدکنندگان تخم مرغ، مرغ و سیب زمینی به شدت آسیب دیده اند.",
+      "قرارداد بهداشتی و بهداشت گیاهی (SPS) که تا حد زیادی بین دو طرف در ماه مه توافق شد، قرار است در نشست هفته آینده امضا شود. این اجازه حذف اکثریت قریب به اتفاق چک‌های فیزیکی و بیشتر گواهی‌ها و مدارک همراه آن را می‌دهد."
+    ],
+    "title_en": "UK-EU deal will ‘dissolve’ £60m a year of costs for plant trade, says Angela Eagle",
+    "summary_en": "Signing of agreement to smooth movement of food, plants and animals next week will not recoup huge sums firms were forced to spend",
+    "content_en": [
+      "Signing of agreement to smooth movement of food, plants and animals next week will not recoup huge sums firms were forced to spend",
+      "The removal of border checks and paperwork on plant imports will “dissolve” £60m of annual costs for the horticulture industry when the UK and EU’s new post-Brexit deal comes in, the environment secretary has said.",
+      "Before theUK-EU summit on 20 November, Angela Eagle said she hoped paperwork headaches for importers would “disappear” after the changes, although the move would not help businesses recoup the large sums they spent to deal with border controls.",
+      "“If we get the ink dry on 20 November, which I very much hope we will … all of that uncertainty, the extra cost, the paperwork and the potential problems if things get stuck at borders would all disappear,” Eagle told the Guardian during a visit to a plant nursery in Kent.",
+      "“The cost, that £60m, can just dissolve and people’s potential to both export back into the EU and get their imports in … gets easier and more predictable.”",
+      "The UK’s departure from the bloc triggered theintroduction of border checkson imports and exports of plants, food and animal products, from sausages and cheese to trees and leather goods.",
+      "Exports of British food and drink to the EU havecollapsed by more than a thirdsince Brexit, according to analysis by the National Farmers’ Union, with egg, chicken and potato producers badly affected.",
+      "The sanitary and phytosanitary (SPS) deal, largely agreed between the two sidesin May, is due to be signed at next week’s summit. It will permit the removal of the vast majority of physical checks and most of the accompanying certificates and paperwork."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/business/2026/nov/13/uk-eu-deal-plant-trade-angela-eagle",
+    "image": "https://i.guim.co.uk/img/media/782556606689c60e50a74d97125046a1c0aeae93/178_0_5695_4556/master/5695.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=96aa23e1a0218edcfa9326797b32fa3c",
+    "timestamp": "2026-11-19T01:50:16.285617Z",
+    "news_id": 1081
+  },
+  {
+    "title": "رئیس آژانس انرژی می گوید جهان اکنون در «عصر برق» است",
+    "summary": "اختصاصی: رهبر آژانس بین‌المللی انرژی می‌گوید سوخت‌های فسیلی دیگر منبع اصلی انرژی نیستند، زیرا نشست سران تعهد برق‌رسانی را بررسی می‌کند.",
+    "content": [
+      "اختصاصی: رهبر آژانس بین‌المللی انرژی می‌گوید سوخت‌های فسیلی دیگر منبع اصلی انرژی نیستند، زیرا نشست سران تعهد برق‌رسانی را بررسی می‌کند.",
+      "اقتصاددان برجسته جهان در زمینه انرژی گفت: جهان عصر زغال سنگ، نفت و گاز را پشت سر گذاشته و اکنون کاملاً در \"عصر برق\" است.",
+      "فاتح بیرول، مدیر اجرایی آژانس بین‌المللی انرژی (IEA) گفت: در دهه آینده بیش از دو برابر بیشتر از دهه گذشته تولید برق به اقتصاد جهانی اضافه می‌شود، زیرا کشورها تلاش می‌کنند تا منابع انرژی خود را در برابر نوسانات قیمت سوخت‌های فسیلی و شوک‌های عرضه مانند جنگ ایران تضمین کنند.",
+      "حمل و نقل با سرعت بی سابقه ای برقی می شود: آژانس بین المللی انرژی دریافته است که در خارج از چین، فروش خودروهای الکتریکی در 9 ماه گذشته 60 درصد افزایش یافته است. به گفته بیرول، رشد مراکز داده هوش مصنوعی همچنین باعث تولید برق می شود، همانطور که رشد سریع تهویه مطبوع نیز افزایش می یابد، زیرا امواج گرما تحت افزایش دمای جهانی شدیدتر و مکرر تر می شوند.",
+      "بیرول در مصاحبه ای با گاردین در اجلاس آب و هوای سازمان ملل متحد Cop31 در ترکیه گفت: ما همچنان از نفت و گاز استفاده خواهیم کرد، اما منبع اصلی انرژی در حال تبدیل شدن به برق است. \"یک عدد خیره کننده [این است که] در 10 سال گذشته، جهان حدود 5000 گیگاوات برق اضافه کرده است. و ما انتظار داریم، به روشی بسیار محافظه کارانه، در 10 سال آینده، حدود 12،000 گیگاوات، بیش از دو برابر بیشتر از آنچه در 10 سال گذشته داشته ایم.\"",
+      "دولت‌های 185 کشور این هفته و آینده در آنتالیا برای گفتگوهای سالانه گرد هم می‌آیند، جایی که چرخش به برق‌سازی در محل سوخت‌های فسیلی یکی از موضوعات کلیدی است. قطعنامه ای برای استخراج 35 درصد از انرژی نهایی در سراسر جهان از برق تا سال 2035 روی میز است که در صورت موفقیت، می تواند یکی از مهم ترین راه های دستیابی به کربن زدایی اقتصادهای مورد نیاز در اواسط قرن باشد.",
+      "الکتریسیته در حال حاضر حدود یک چهارم بیشتر نیازهای انرژی را برآورده می‌کند در حالی که سه چهارم انرژی نهایی در سراسر جهان توسط سوخت‌های فسیلی، عمدتاً برای حمل و نقل، گرمایش و مصارف صنعتی تامین می‌شود. بیرول گفت که الکتریسیته جهانی به طور فزاینده ای توسط منابع تجدیدپذیر تولید می شود و این روند در دهه های آینده حتی سریع تر خواهد شد.",
+      "کارشناسان می گویند هرچه انرژی ما بیشتر با انرژی پاک تامین شود، بهتر است، به ویژه به این دلیل که در نتیجه ناکارآمدی سوخت های فسیلی، بیشتر بقیه انرژی ما به عنوان گرما هدر می رود، بنابراین وقتی این فعالیت ها برق دار می شوند، تنها حدود نیمی از انرژی نیاز به جایگزینی دارد."
+    ],
+    "title_en": "World is now in ‘age of electricity’, energy agency chief says",
+    "summary_en": "Exclusive: Fossil fuels no longer dominant energy source, IEA leader says, as summit considers electrification pledge",
+    "content_en": [
+      "Exclusive: Fossil fuels no longer dominant energy source, IEA leader says, as summit considers electrification pledge",
+      "The world has left behind the age of coal, oil and gas and is now firmly in “the age of electricity”, the world’s leading energy economist has said.",
+      "Fatih Birol, the executive director of the InternationalEnergyAgency (IEA), said more than twice as much electricity generation would be added to the global economy in the next decade than in the last, as countries scramble to secure their energy supplies against fossil fuel price volatility and supply shocks, such as the Iran war.",
+      "Transport is being electrified at an unprecedented rate: outside China, sales of electric cars have risen by 60% in the last nine months, the IEA has found. The growth of AI datacentres is also spurring electricity generation, as is the rapid growth in air conditioning, according to Birol, as heatwaves grow more intense and more frequent under rising global temperatures.",
+      "“We will still use oil and gas, but the dominant source of energy is becoming electricity,” Birol told the Guardian in an interview at theCop31 UN climate summit in Turkey. “One staggering number [is that] in the last 10 years, the world has added about 5,000 gigawatts of electricity. And we expect, in a very conservative way, in the next 10 years, about 12,000 gigawatts, more than two times more than what we had in the last 10 years.”",
+      "Governments from 185 countries are meeting this week and next in Antalya for the annual talks, wherethe turn to electrificationin place of fossil fuels is one of the key topics. A resolution to derive 35% of final energy worldwide from electricity by 2035 is on the table, which if it succeeds, could be one of the most important ways ofachieving the needed decarbonisation of economiesby mid-century.",
+      "Electricity now fulfils about a quarter of most energy needs while three-quarters of final energy worldwide issupplied by fossil fuels, mostly for transport, heating and industrial uses. Global electricity was increasingly generated by renewable sources and that process would speed up even faster over the next decades, Birol said.",
+      "The more our lives can be powered by clean energy the better, say experts, not least because, as a result of theinefficiency of fossil fuels, most of the rest of our energy is wasted as heat, so when these activities are electrified, only about half of the energy needs to be replaced."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/environment/2026/nov/13/cop-31-electricity-energy-fossil-fuels-fatih-birol-iea",
+    "image": "https://i.guim.co.uk/img/media/d7cea311df5be9b1bdd1181313c38b00091aec76/487_563_6176_4941/master/6176.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ff1c2dbb9b5797162433937797027613",
+    "timestamp": "2026-11-19T01:50:18.748554Z",
+    "news_id": 1080
+  },
+  {
+    "title": "هوش مصنوعی به بریتانیا کمک کرد تا انتظارات را نادیده بگیرد - اما آیا تاب آوری اقتصاد از بین خواهد رفت؟",
+    "summary": "علیرغم سرپیچی جان هیلی، اقتصاد با تهدیدات ناشی از کندی فناوری و قبوض انرژی در زمستان امسال مواجه است.",
+    "content": [
+      "علیرغم سرپیچی جان هیلی، اقتصاد با تهدیدات ناشی از کندی فناوری و قبوض انرژی در زمستان امسال مواجه است.",
+      "هوش مصنوعی به اقتصاد بریتانیا کمک می کند تا بیش از دو سال با سریع ترین سرعت رشد کند",
+      "زمانی که جان هیلی در ژوئیه صدراعظم شد، پیش‌بینی‌کنندگان روشن بودند: مقاومت بریتانیا در برابر جنگ در خاورمیانه دوام نخواهد آورد. بادهای معکوس اقتصاد جهانی بسیار قوی بود، تورم شروع به افزایش می کرد و رشد به اندازه قطره ای کاهش می یافت.",
+      "با گذشت چهار ماه از شروع کار، اقتصاد همچنان به سرپیچی از انتظارات پس از رشد 0.7 درصدی در سه ماهه سوم ادامه می دهد - سریع ترین رشد در دو سال و نیم گذشته. این کشور بریتانیا را در مسیر تبدیل شدن به دومین اقتصاد با رشد سریع G7 در سال جاری قرار می دهد.",
+      "در اولین روز حضورش در داونینگ استریت، یادداشتی از Treasurys نشان داد که خوش بینانه ترین تحلیلگر شهر انتظار رشد سه ماهه 0.3 درصدی را داشت. بیشتر آنها به شکلی نزدیک به صفر مداد شده بودند. برخی هشدار می دادند که بریتانیا ممکن است به سمت رکود پیش رود.",
+      "علیرغم چشم انداز تیره و تار، خانوارها به خرج کردن خود ادامه داده اند و سرمایه گذاری های تجاری به دلیل گسترش هوش مصنوعی به پیش رفته است.",
+      "در زیر کاپوت، فناوری اطلاعات و خدمات حرفه‌ای رشد را هدایت می‌کنند – که با هم حدود نیمی از افزایش فعالیت را به همراه دارند. از آنجایی که بخش‌های مرکزی در رونق هوش مصنوعی، تعجب‌آور نیست – با تحلیلگران ING که به دلیل موقعیت بریتانیا به عنوان یک مقصد پیشرو در اروپا برای سرمایه‌گذاری، قدرت در فناوری اطلاعات «به وضوح یک داستان مرکز داده» است.",
+      "به طور کلی، دویچه بانک تخمین می زند که هزینه های مرتبط با هوش مصنوعی در سال جاری حدود 0.3 تا 0.4 درصد به رشد تولید ناخالص داخلی اضافه کرده است. واضح است که چرا هیلی مشتاق است تا در میان تلاش‌های دولت برای جلب سرمایه‌گذاری تجاری جهانی، پایه‌هایی را که سلف بلافصل خود، ریچل ریوز، برای مهار هوش مصنوعی ایجاد کرده است، بسازد."
+    ],
+    "title_en": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+    "summary_en": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter",
+    "content_en": [
+      "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter",
+      "AI helps UK economy grow at fastest pace for more than two years",
+      "The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and growth would slow to a trickle.",
+      "Four months into the job, the economy is continuing to defy expectations aftergrowing by 0.7% in the third quarter– the fastest expansion in two and a half years. It puts the UK on course to be the second-fastest growing G7 economy this year.",
+      "On his first day in Downing Street thememo from the Treasuryshowed the most optimistic City analyst expected 0.3% quarterly growth. Most had pencilled in a figure close to zero. Some were warning that the UK could edge towards a recession.",
+      "Despite the gloomy outlook households have continued to spend and business investment has powered ahead, driven by the rollout of AI.",
+      "Underneath the bonnet, growth is being spearheaded by IT and professional services – together contributing about half of the rise in activity. As the central sectors in the AI boom, that is hardly surprising – with analysts at ING suggesting the strength in IT was “very clearly a datacentre story” thanks to the UK’s status as a leading destination in Europe for investment.",
+      "Overall, Deutsche Bank estimates that AI-related spending has added about 0.3% to 0.4% to GDP growth this year. It is clear to see why Healey is keen to build on the groundwork laid by his immediate predecessor, Rachel Reeves, to harness AI amid government efforts to court global business investment."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+    "image": "https://i.guim.co.uk/img/media/9f8f14e2a01ec8c9a4d21b8b65ed45042405e31d/820_0_5862_4690/master/5862.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0bb7e9764b304a7bfe1777acfe980fe9",
+    "timestamp": "2026-11-19T01:50:21.025510Z",
+    "news_id": 1079
+  },
+  {
+    "title": "هوش مصنوعی به اقتصاد بریتانیا کمک می کند تا بیش از دو سال با سریع ترین سرعت رشد کند",
+    "summary": "تولید ناخالص داخلی در سه ماهه سوم 0.7 درصد و در سپتامبر 0.2 درصد ماهانه علیرغم قیمت های بالای نفت رشد کرد.",
+    "content": [
+      "تولید ناخالص داخلی در سه ماهه سوم 0.7 درصد و در سپتامبر 0.2 درصد ماهانه علیرغم قیمت های بالای نفت رشد کرد.",
+      "هوش مصنوعی به بریتانیا کمک کرد تا انتظارات را نادیده بگیرد - اما آیا انعطاف پذیری بریتانیا از بین خواهد رفت؟",
+      "اقتصاد بریتانیا در سه ماهه سوم 0.7 درصد رشد کرد که سریع ترین رشد آن در دو سال و نیم گذشته بود، زیرا عرضه خدمات هوش مصنوعی فعالیت را افزایش داد.",
+      "دفتر آمار ملی گزارش داد که اقتصاد در سه ماهه جولای تا سپتامبر «رشد قوی» داشته است، که تقریباً به طور کامل به دلیل رشد قوی و گسترده در بخش خدمات، به رهبری بخش فناوری اطلاعات است.",
+      "نرخ رشد سه ماهه با انتظارات اقتصاددانان مطابقت داشت و سریع ترین نرخ رشد از سه ماه اول سال 2024 بود که تولید ناخالص داخلی نیز 0.7 درصد افزایش یافت.",
+      "در تقویت صدراعظم، جان هیلی، ONS همچنین اعلام کرد که اقتصاد در سپتامبر 0.2 درصد رشد کرد، اگرچه ONS نرخ رشد را در ماه اوت از 0.1 درصد به صفر کاهش داد. داده های سپتامبر پیش بینی رشد صفر در ماه را شکست داد.",
+      "بخش اطلاعات و ارتباطات بریتانیا در سه ماهه 2.1 درصد رشد کرد که عمدتاً ناشی از افزایش برنامه‌نویسی رایانه، مشاوره و فعالیت‌های مرتبط بود. ONS گزارش داد که این صنعت بزرگترین محرک رشد تولید ناخالص داخلی در سال 2026 بوده است و افزود که مشاغل مرتبط با هوش مصنوعی و محاسبات ابری بیشترین افزایش گردش مالی را گزارش کرده اند.",
+      "سارا کولز، رئیس امور مالی شخصی در پلتفرم سرمایه گذاری AJ Bell، گفت که هوش مصنوعی در سه ماهه گذشته «بخش قابل توجهی از کارهای سنگین را انجام می دهد»."
+    ],
+    "title_en": "AI helps UK economy grow at fastest pace for more than two years",
+    "summary_en": "GDP ‘grew robustly’ by 0.7% in third quarter and by 0.2% month on month in September despite high oil prices",
+    "content_en": [
+      "GDP ‘grew robustly’ by 0.7% in third quarter and by 0.2% month on month in September despite high oil prices",
+      "AI helped the UK defy expectations – but will Britain’s resilience fizzle out?",
+      "The UK economy grew by 0.7% in the third quarter, its fastest expansion in two and a half years, as the rollout of AI services increased activity.",
+      "The Office for National Statistics reported that the economy “grew robustly” in the July to September quarter, almost entirely due to strong and widespread growth in the services sector, led by the IT sector.",
+      "The quarterly growth rate matched economists’ expectations, and was the fastest recorded since the first three months of 2024, when GDP also rose by 0.7%.",
+      "In a boost to the chancellor, John Healey, the ONS also said the economy grew by 0.2% in September, though the ONS revised down the growth rate in August from 0.1% to zero. September’s data beat forecasts of zero growth in the month.",
+      "The UK’s information and communication sector grew by 2.1% in the quarter, mainly driven by increases in computer programming, consultancy and related activities. This industry has been the largest driver of GDP growth across 2026, the ONS reported, adding that the businesses related to AI and cloud computing have been reporting the largest increases in turnover.",
+      "Sarah Coles, the head of personal finance at the investment platform AJ Bell, said AI continued to do “a significant portion of the heavy lifting” in the last quarter."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+    "image": "https://i.guim.co.uk/img/media/03d426a9448a740b53deaeac03677f5a7c97417e/417_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d03dde0f991586ea196e966628465398",
+    "timestamp": "2026-11-19T01:50:22.790286Z",
+    "news_id": 1078
+  },
+  {
+    "title": "انویدیا شرکت حقوقی بزرگ ایالات متحده را برای بررسی ادعاهای جاسوسی استخدام می کند. صدراعظم بریتانیا از نشت بودجه \"ناامید\" شد - همانطور که اتفاق افتاد",
+    "summary": "صبح بخیر، و به پوشش خبری ما در زمینه تجارت، بازارهای مالی و اقتصاد جهانی خوش آمدید.",
+    "content": [
+      "صبح بخیر، و به پوشش خبری ما در زمینه تجارت، بازارهای مالی و اقتصاد جهانی خوش آمدید.",
+      "بحران انویدیا با سرعت در حال افزایش است و حدود 430 میلیارد دلار ارزش ارزشمندترین شرکت تولید تراشه جهان را از زمانی که تحت یک رسوایی جاسوسی قرار گرفت، از بین برد.",
+      "یک شبه، انویدیا اعلام کرد که یک دادستان ارشد فدرال سابق را برای کمک به تحقیقات درباره رابطه جنسن هوانگ، مدیر اجرایی ارشد اجرایی با یک جاسوس مظنون چینی، استخدام کرده است.",
+      "هیئت مدیره این شرکت جون اچ کیم، دادستان سابق ایالات متحده در ناحیه جنوبی نیویورک، و شرکت وی واکتل، لیپتون، روزن و کاتزتو را حفظ کرده اند که \"یک تحقیق کامل و مستقل\" را انجام دهند.",
+      "Wachtellis یک شرکت حقوقی سنگین وزن. در سال 2022 توسط توییتر استخدام شد تا ایلان ماسک را مجبور کند تا تصاحب 44 میلیارد دلاری خود را به عنوان مثال تکمیل کند و سابقه مشاوره به شرکت های بزرگ در مورد موضوعاتی مانند ادغام و حاکمیت شرکتی را دارد.",
+      "اکنون به بررسی اوضاع و احوال هوانگ می پردازد - تصور می شود با آلیس هوانگ، که مقامات آمریکایی معتقدند یک جاسوس چینی است، و برای NvidiacustomerMegaspeed کار می کرد.",
+      "اگرچه پکن اتهامات مربوط به عملیات جاسوسی را با هدف قرار دادن جنسن هوانگ رد کرده است، ارزش انویدیا در این هفته مورد حمله قرار گرفته است.",
+      "دیروز سهام آن تقریباً 5.5 درصد کاهش یافت و به افت 4.27 درصدی روز دوشنبه افزود. این امر ارزش شرکت را از 4.50 تریلیون دلار قبل از انتشار داستان آخر هفته گذشته به 4.07 تریلیون دلار کاهش داده است."
+    ],
+    "title_en": "Nvidia hires major US law firm to investigate spying claims; UK chancellor ‘dismayed’ by budget leak – as it happened",
+    "summary_en": "Good morning, and welcome to our rolling coverage of business, the financial markets, and the world economy.",
+    "content_en": [
+      "Good morning, and welcome to our rolling coverage of business, the financial markets, and the world economy.",
+      "The crisis grippingNvidiais gathering pace, with around $430bn wiped off the value of the world’s most valuable chip company since it was hit by a spying scandal.",
+      "Overnight, Nvidia announced it has hired a former top federal prosecutor to help probe chief executive Jensen Huang’s relationship with a suspected Chinese spy.",
+      "The company’s board have retainedJoon H. Kim, the former acting U.S. Attorney of the Southern District of New York, and his firmWachtell, Lipton, Rosen & Katzto conduct “a thorough and independent investigation”.",
+      "Wachtellis a heavyweight corporate law firm. In 2022 it was hired by Twitter to force Elon Musk to complete his $44bn takeover, for example, and has a track record of advising major companies on issues such as mergers and corporate governance.",
+      "It will now look into the circumstances ofHuang’saffair – thought to be withAliceHuang, who US officials believe is a Chinese spy, and who worked forNvidiacustomerMegaspeed.",
+      "Although Beijing has denied allegations that it operated an espionage operation targetingJensenHuang,Nvidia’svalue has been buffeted this week.",
+      "Yesterday, its shares fell by almost 5.5%, adding to the 4.27% drop on Monday. This has pulled the company’s value down to $4.07tn, from $4.50tn before the story broke last weekend."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates",
+    "image": "https://i.guim.co.uk/img/media/f8142d9712b85f162ef04fc00cf4f4dd2db40896/236_0_6713_5372/master/6713.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=7803e49f9f7314498a07e31d210d6df4",
+    "timestamp": "2026-11-19T01:50:24.687771Z",
+    "news_id": 1077
+  },
+  {
+    "title": "قیمت‌های مصرف‌کننده در ماه اکتبر 0.4 درصد افزایش یافت که بیش از حد انتظار بود که مبارزه با تورم فدرال رزرو را پیچیده‌تر کرد.",
+    "summary": "هزینه‌های کالاها و خدمات در ماه اکتبر بیش از حد انتظار افزایش یافت و نشانه‌های هشدار جدیدی برای فدرال رزرو در مبارزه با کاهش تورم ایجاد کرد.",
+    "content": [
+      "هزینه‌های کالاها و خدمات در ماه اکتبر بیش از حد انتظار افزایش یافت و نشانه‌های هشدار جدیدی برای فدرال رزرو در مبارزه با کاهش تورم ایجاد کرد.",
+      "دفتر آمار کار روز سه‌شنبه گزارش داد که شاخص قیمت مصرف‌کننده، مقیاس وسیعی از هزینه‌ها در سرتاسر اقتصاد ایالات متحده، برای ماه 0.4 درصد افزایش یافت. اقتصاددانان مورد نظر داو جونز به دنبال افزایش 0.3 درصدی بودند.",
+      "با حذف مواد غذایی و انرژی فرار، به اصطلاح CPI اصلی 0.3 درصد در برابر پیش بینی افزایش 0.2 درصدی افزایش یافت.",
+      "CPI سرفصل در ماه سپتامبر 0.6% افزایش یافته بود در حالی که Core 0.3% افزایش داشت.",
+      "این گزارش در مقطع حساسی برای فدرال رزرو منتشر می شود، زیرا فدرال رزرو در حال بررسی حرکت بعدی نرخ بهره است. کریستوفر والر، رئیس فدرال رزرو، صبح روز سه‌شنبه در لندن، پیش از انتشار CPI، گفت که گزارش تورم داغ می‌تواند او را به سمت حمایت از افزایش نیم واحدی در دسامبر سوق دهد، و به طور خاص گفت که اگر CPI اصلی \"حدود 0.3\" باشد، چنین افزایشی باید روی میز باشد.",
+      "بر اساس گزارش FedWatchtool گروه CME، معامله گران اکنون در جلسه بعدی فدرال رزرو در 8 و 9 دسامبر به طور کامل یک چهارم درصد افزایش قیمت دارند و احتمال افزایش نیم واحدی را 13.6 درصد می دانند.",
+      "سهام پس از انتشار سقوط کرد، در حالی که بازده خزانه داری جهش کرد.",
+      "کارن ماننا، استراتژیست سرمایه گذاری با درآمد ثابت در فدرال هرمس، گفت: «این گزارشی بود که بازار کمترین هزینه را برای دیدن آن داشت. چاپ تورم داغتر سؤالات جدیدی را در مورد اینکه آیا فدرال رزرو به اندازه کافی برای مهار فشارهای قیمتی انجام داده است و خطر افزایش نرخ بهره و ماندن در آن برای مدت طولانی را تقویت می کند، ایجاد می کند."
+    ],
+    "title_en": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+    "summary_en": "Costs for goods and services rose more than expected in October, providing fresh warning signs for the Federal Reserve in its fight to lower inflation.",
+    "content_en": [
+      "Costs for goods and services rose more than expected in October, providing fresh warning signs for the Federal Reserve in its fight to lower inflation.",
+      "Theconsumer price index, a broad gauge of costs across the U.S. economy, increased a seasonally adjusted 0.4% for the month, the Bureau of Labor Statistics reported Tuesday. Economists surveyed by Dow Jones had been looking for a 0.3% increase.",
+      "Stripping out volatile food and energy, so-called core CPI increased 0.3% against the forecast for a 0.2% gain.",
+      "The headline CPI had increased 0.6% in September while core was up 0.3%.",
+      "The report comes at a critical juncture for the Federal Reserve as it considers its next interest-rate move. Speaking Tuesday morning in London ahead of the CPI release, FedGovernor Christopher Waller saida hot inflation report could push him toward advocating for a half-point increase in December, and specifically said such a hike should be on the table if core CPI was \"around 0.3.\"",
+      "Traders are now fully pricing in a quarter percentage-point increase when the Fed next meets Dec. 8-9, and put odds of a half-point hike at 13.6%, after being around zero prior to the inflation report, according to the CME Group'sFedWatchtool.",
+      "Stocks fell following the release, while Treasury yields jumped.",
+      "\"This was the report the market could least afford to see,\" said Karen Manna, fixed income investment strategist at Federated Hermes. \"A hotter inflation print raises fresh questions about whether the Fed has done enough to contain price pressures and reinforces the risk that interest rates need to move higher and stay there for longer.\""
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108414079-1794318539817-108414079-1792067685758-gettyimages-2275677175-l1081559_c7svuif5.jpg?v=1794318549&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:27.122455Z",
+    "news_id": 1076
+  },
+  {
+    "title": "مازاد کالاهای چین برای دومین سال به بیش از یک تریلیون دلار رسید در میان درخواست‌های پکن برای ایجاد تعادل در تجارت",
+    "summary": "مازاد تجاری چین در سال جاری با دو ماه فرصت به بیش از یک تریلیون دلار رسید، در حالی که کشورهای شریک نگرانی‌هایی را در مورد صادرات پکن که صنایع داخلی را کاهش داده است، افزایش داده‌اند.",
+    "content": [
+      "مازاد تجاری چین در سال جاری با دو ماه فرصت به بیش از یک تریلیون دلار رسید، در حالی که کشورهای شریک نگرانی‌هایی را در مورد صادرات پکن که صنایع داخلی را کاهش داده است، افزایش داده‌اند.",
+      "داده‌های گمرک در روز سه‌شنبه نشان داد که برای 10 ماه منتهی به اکتبر، مازاد به 1.04 تریلیون دلار رسیده است، در مقایسه با رکورد 1.2 تریلیون دلار برای سال 2025، زمانی که برای اولین بار از مرز یک تریلیون دلار عبور کرد.",
+      "آن نقطه عطف، فراخوان‌های شرکای تجاری برای پکن بلندتر شد تا تقاضای داخلی را تقویت کند و اقتصادش را متعادل کند. صندوق بین‌المللی پول همچنین بارها از چین خواسته است که چرخش خود را از تکیه بر صادرات برای رشد به سمت مدلی که از مصرف داخلی پشتیبانی می‌کند سرعت بخشد.",
+      "لین سونگ، اقتصاددان ارشد چین بزرگ در بانک ING، گفت: «چین با وجود عدم موفقیت در ماه اکتبر، برای رکورد جدید مازاد تجاری تا پایان سال به خوبی در حال حرکت است. رشد مازاد در ماه اکتبر به دلیل افزایش واردات، کمتر از برآوردهای بازار، به کمترین میزان در شش ماه گذشته کاهش یافت.",
+      "این مازاد تقاضای جهانی برای سخت‌افزار هوش مصنوعی ساخت چین را منعکس می‌کند که به اقتصادی کمک کرده است که مصرف‌کنندگان هنوز تمایلی به خرج کردن ندارند.",
+      "صادرات در ماه اکتبر نسبت به سال گذشته 35.2 درصد افزایش یافت که بیش از انتظارات اقتصاددانان نظرسنجی رویترز برای جهش 33.5 درصدی بود. آنها در ماه سپتامبر 36.3 درصد رشد کرده بودند.",
+      "قدرت صادرات به سیاستگذاران این امکان را داده است که به حمایت متوسط ​​برای دستیابی به هدف رشد سالانه 4.5 تا 5 درصدی کشور ادامه دهند، حتی با وجود ضعیف بودن مصرف خانوارها. خرده‌فروشی در ماه سپتامبر 1.1 درصد رشد کرد که نشان دهنده عدم تعادل در دومین اقتصاد بزرگ جهان است.",
+      "واردات نیز افزایش یافت و 41.6 درصد در ماه گذشته افزایش یافت که قوی‌ترین رقم از ماه می 2021 بود و به شدت بیش از پیش‌بینی‌ها برای افزایش 32 درصدی تحلیلگران مورد نظر رویترز بود."
+    ],
+    "title_en": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
+    "summary_en": "China's trade surplus topped $1 trillion this year with two months to spare, at a time when partner countries have been raising concerns over Beijing's exports that have been undercutting local indust...",
+    "content_en": [
+      "China's trade surplus topped $1 trillion this year with two months to spare, at a time when partner countries have been raising concerns over Beijing's exports that have been undercutting local industries.",
+      "For the 10 months through October, the surplus reached $1.04 trillion, compared with a record $1.2 trillion for the full year 2025, when it crossed the $1 trillion mark for the first time, customs data on Tuesday showed.",
+      "That milestone came ascalls from trading partnershave grown louder for Beijing to boost domestic demand and balance its economy. The International Monetary Fund has alsorepeatedly urged China to accelerate its pivotfrom relying on exports for growth toward a model powered by domestic consumption.",
+      "\"China remains well on pace for a new record high for the trade surplus by year-end despite a miss in October,\" said Lynn Song, chief economist for Greater China at ING Bank. Surplus growth in October slowed to a six-month low as imports surged, undershooting market estimates.",
+      "The surplus reflected global demand for Chinese-made AI hardware that has propped up an economy where consumers are still reluctant to spend.",
+      "Exports in October jumped by 35.2% from a year earlier, exceeding Reuters-polled economists' expectations for a 33.5% jump. They had grown at 36.3% in September.",
+      "The strength in exports has allowed policymakers to continue relying on moderate support to meet the country's annual growth target of 4.5%-5%, even as household consumption remains weak. Retail sales grew a modest 1.1% in September, underscoring the imbalance in the world's second-largest economy.",
+      "Imports also soared, rising 41.6% last month, the strongest since May 2021 and sharply beating estimates for a 32% rise by analysts polled by Reuters."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108359543-1788833216665-gettyimages-2292683397-img_8748.jpeg?v=1788833249&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:29.310359Z",
+    "news_id": 1075
+  },
+  {
+    "title": "3 دلیل غیرمنتظره که گزارش مشاغل اکتبر بسیار قوی بود",
+    "summary": "مقوله ای که کمتر مورد توجه قرار گرفته است در مشاغل پرفروش روز جمعه، دیدگاه اجماع در مورد از دست دادن شغل ناشی از هوش مصنوعی را به چالش می کشد.",
+    "content": [
+      "مقوله ای که کمتر مورد توجه قرار گرفته است در مشاغل پرفروش روز جمعه، دیدگاه اجماع در مورد از دست دادن شغل ناشی از هوش مصنوعی را به چالش می کشد.",
+      "حداقل در حال حاضر، داده‌ها نشان می‌دهند که ایالات متحده در نتیجه رونق هوش مصنوعی مشاغلی را به دست می‌آورد، نه از دست دادن آنها.",
+      "و دسته دیگری نشان می دهد که تعداد مشاغل قوی می تواند قدرت ماندگاری داشته باشد.",
+      "بر اساس گزارش جمعه اداره آمار کار، حقوق و دستمزد غیرکشاورزی در ماه اکتبر 165000 شغل افزایش یافته است. افزایش غافلگیرکننده ای در استخدام بود که انتظارات وال استریت را از بین برد. اقتصاددانان شرکت‌کننده در نظرسنجی داو جونز رشد تنها 59000 را برای ماه پیش‌بینی کرده بودند.",
+      "در اینجا سه ​​چیز شگفت‌انگیز وجود دارد که ممکن است از این گزارش غافل شده باشید.",
+      "استخدام برای مشاوران در این ماه افزایش یافت و تعداد کل افراد این حرفه را به رکورد جدیدی رساند.",
+      "نیروی کار برای مشاوران مدیریت، علمی و فنی بین سپتامبر و اکتبر 17300 شغل افزایش یافت که بزرگترین افزایش ماهانه در نزدیک به دو سال گذشته است. این دسته زیرمجموعه ای از بخش خدمات حرفه ای و تجاری است که توسط BLS پیگیری می شود و 25٪ از سود کل بخش در ماه را به خود اختصاص می دهد.",
+      "علاوه بر این، این نیروی کار بیش از 45000 شغل در سال گذشته افزایش یافته است. طبق داده‌های BLS، این افزایش برای اولین بار در رکورد، تعداد کل کارمندان این نوع کارگران را از مرز 1.9 میلیون عبور داد."
+    ],
+    "title_en": "3 unexpected reasons the October jobs report was so strong",
+    "summary_en": "A little-noticed category inFriday's blockbuster jobs reportis challenging the consensus view about job losses caused byartificial intelligence.",
+    "content_en": [
+      "A little-noticed category inFriday's blockbuster jobs reportis challenging the consensus view about job losses caused byartificial intelligence.",
+      "At least for now, the data suggests the U.S. is gaining jobs as a result of the AI boom, not losing them.",
+      "And another category suggests the strong jobs numbers could have some staying power.",
+      "Nonfarm payrolls grew by 165,000 jobs in October, according to the Friday report from the Bureau of Labor Statistics. It was a surprising surge in hiring that blew way past Wall Street's expectations. Economists polled by Dow Jones had forecast growth of just 59,000 for the month.",
+      "Here are three surprising things you might have missed from the report.",
+      "Hiring forconsultantssurged in the month, sending the profession's total head count to a fresh record.",
+      "The labor force for management, scientific and technical consultants expanded by 17,300 jobs between September and October, the largest month-over-month increase in nearly two years. This category is a subset of the professional and business services sector tracked by BLS and accounted for 25% of the entire sector's gains for the month.",
+      "What's more, this workforce has grown by more than 45,000 jobs over the past year. That gain pushed the total employee base for these types of workers past 1.9 million for the first time on record, according to BLS data."
+    ],
+    "category": "macro",
+    "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108303908-1778178630285-gettyimages-2273898253-jr_17705_klqohmye.jpeg?v=1778178878&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:31.870482Z",
+    "news_id": 1074
+  },
+  {
+    "title": "یک گزارش کلیدی برای وضعیت تورم در ماه اکتبر سه شنبه منتشر می شود. در اینجا چیزی است که باید انتظار داشت",
+    "summary": "کاهش قیمت بنزین در ماه اکتبر به مصرف کنندگان کمک کرد، اما مقامات فدرال رزرو به طور فزاینده ای نگران هستند که مهار فشارهای تورمی در سایر نقاط اقتصاد سخت تر شود.",
+    "content": [
+      "کاهش قیمت بنزین در ماه اکتبر به مصرف کنندگان کمک کرد، اما مقامات فدرال رزرو به طور فزاینده ای نگران هستند که مهار فشارهای تورمی در سایر نقاط اقتصاد سخت تر شود.",
+      "به گفته اداره اطلاعات انرژی، قیمت‌ها در پمپ بیش از 4 درصد کاهش یافت، و این یک مهلت از افزایش بیش از یک دلار در هر گالن در سال گذشته بود.",
+      "با این حال، انتظار می‌رود شاخص قیمت مصرف‌کننده در ماه، که دفتر آمار کار سه‌شنبه در ساعت 8:30 صبح منتشر می‌کند، تنها یک افت جزئی را نشان دهد.",
+      "در همین حال، مقامات فدرال رزرو می گویند که نگران این هستند که تورم در ابتدا ناشی از تعرفه های ترامپ رئیس جمهور آمریکا و جنگ ایران پایدارتر از آنچه انتظار می رفت ثابت شود و فشارهای قیمتی در بخش هایی فراتر از آنهایی که مستقیماً تحت تأثیر شوک ها قرار دارند، ظاهر می شود.",
+      "در زمانی که بانک مرکزی به طور فزاینده‌ای در مورد وضعیت بازار کار اطمینان دارد، نگرانی‌ها در مورد هزینه زندگی چیزی است که فدرال رزرو مورد توجه قرار می‌گیرد.",
+      "آستن گولسبی، رئیس فدرال رزرو شیکاگو، دوشنبه در جریان رویدادی در محله خود گفت: \"ما به سمت آنچه که از نظر تاریخی اشتغال کامل را در نظر می گرفتیم پیش می رفتیم، و مشکل بزرگ همه در سمت تورم بود. ما به اطراف می رویم، با مردم در همه جای این منطقه صحبت می کنیم، تنها چیزی که در مورد آن می شنویم مقرون به صرفه بودن در بخش تجاری و هزینه است.\" بنابراین ما باید با این شکست در سمت هزینه و تورم کنار بیاییم.",
+      "انتظار می‌رود که شاخص CPI برای همه اقلام افزایش 0.3 درصدی را نشان دهد. بر اساس پیش‌بینی اجماع داوجونز، تورم اصلی که هزینه‌های ناپایدار مواد غذایی و انرژی را حذف نمی‌کند، 0.2 درصد افزایش می‌یابد. در حالی که هر دو از سود ماهانه سپتامبر مربوطه با 0.6% و 0.3% کندتر خواهند بود، اما همچنان نشان دهنده فشار بیشتر قیمت هستند.",
+      "به دلیل تعطیلی دولت یک سال پیش، که BLS از جمع آوری برخی از داده ها و جمع آوری یک سطح شاخص کامل جلوگیری کرد، هیچ قرائت سالانه ای برای اکتبر وجود نخواهد داشت. به دلیل مشکل داده ها، رقم قابل مقایسه ای برای این شاخص وجود ندارد."
+    ],
+    "title_en": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+    "summary_en": "Falling gasoline prices provided some relief to consumers in October, but Federal Reserve officials are increasingly concerned that inflation pressures elsewhere in the economy are proving harder to c...",
+    "content_en": [
+      "Falling gasoline prices provided some relief to consumers in October, but Federal Reserve officials are increasingly concerned that inflation pressures elsewhere in the economy are proving harder to contain.",
+      "Prices at the pump declined by more than 4%, according to the Energy Information Administration, providing a respite from a surge that had added more than a dollar a gallon over the past year.",
+      "However, theconsumer price indexfor the month, which the Bureau of Labor Statistics will release Tuesday at 8:30 a.m., is expected to show only a slight let-up.",
+      "Meanwhile, Fed officials say they are worried that inflation initially driven higher by PresidentDonald Trump's tariffs and the Iran war is proving more persistent than expected, with price pressures emerging in sectors beyond those directly affected by the shocks.",
+      "At a time when the central bank is increasingly confident about the state of the labor market, concerns over the cost of living are what are top of mind for the Fed.",
+      "\"We've been moving up to what historically we'd consider full employment, and the big problem has all been on the inflation side. We go around, we talk to people everywhere in this district, all we hear about is affordability on the business side, the cost,\" Chicago Fed President Austan Goolsbee said Monday during an event in his home district. \"So we've got to come to terms with this cost-side and inflation-side failure.\"",
+      "The CPI reading for all items is expected to show an increase of 0.3%. Core inflation, which excludes volatile food and energy costs, is forecast to increase 0.2%, according to the Dow Jones consensus forecast. While both would be slower than the respectiveSeptember monthly gainsof 0.6% and 0.3%, they still represent further price pressures.",
+      "There will be no annual reading for October because of the government shutdown a year ago, which prevented the BLS from collecting some data and compiling a full index level. Because of the data issue, there isn't a comparable figure for the index."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108405599-17919312802025-05-28t072704z_2039027556_rc23zdahp1s8_rtrmadp_0_usa-trump-tariffs-chinatown.jpeg?v=1791931344&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:34.069985Z",
+    "news_id": 1073
+  },
+  {
+    "title": "تورم عمده‌فروشی چین به بالاترین حد خود در بیش از چهار سال گذشته رسیده است، زیرا اندازه‌گیری مصرف‌کننده کاهش یافته است",
+    "summary": "قیمت تولیدکننده در چین با سریع ترین نرخ از ژوئن 2022 رشد کرد و برای سومین ماه متوالی شتاب گرفت.",
+    "content": [
+      "قیمت تولیدکننده در چین با سریع ترین نرخ از ژوئن 2022 رشد کرد و برای سومین ماه متوالی شتاب گرفت.",
+      "شاخص PPI برای اکتبر در مقایسه با 5.3 درصدی که اقتصاددانان نظرسنجی رویترز انتظار داشتند، به 5.7 درصد رسید. این افزایش به دلیل افزایش شدید قیمت ها در صنایع معدنی و مواد خام بود.",
+      "ژانگ ژیوی، رئیس و اقتصاددان ارشد Pinpoint Asset Management، به CNBC گفت: این افزایش به دلیل تقاضای خارجی بسیار قوی بوده است.",
+      "تورم مصرف کننده در چین در ماه اکتبر به 0.7 درصد کاهش یافت که اولین کاهش آن پس از دو ماه متوالی افزایش بود.",
+      "این رقم انتظار رشد 0.8 درصدی اقتصاددانان مورد نظر رویترز را از دست داد و کمتر از 0.9 درصدی بود که در سپتامبر مشاهده شد.",
+      "تورم اصلی که قیمت‌های مواد غذایی و انرژی را کاهش می‌دهد، 0.8 درصد بوده که نسبت به 1 درصد در ماه قبل کاهش یافته است.",
+      "به گفته دونگ لیجوان، آمارگیر ارشد بخش شهری در اداره ملی آمار چین، افزایش قیمت‌های مصرف‌کننده همچنان تحت تأثیر قیمت‌های بنزین بود که بزرگترین عامل افزایش قیمت‌ها بود، اما این با کاهش شدیدتر از حد انتظار قیمت مواد غذایی جبران شد.",
+      "اقتصاد چین اخیراً نشانه هایی از انبساط را نشان داده است. در سه ماهه سوم سریعتر از حد انتظار رشد کرد و سپتامبر شاهد یک ضربه شدید در خرده فروشی بود."
+    ],
+    "title_en": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+    "summary_en": "Producer prices in China grew at the fastest rate since June 2022, accelerating for the third month in a row.",
+    "content_en": [
+      "Producer prices in China grew at the fastest rate since June 2022, accelerating for the third month in a row.",
+      "The PPIfor October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters. The increase was driven by a sharp rise in prices in the mining and raw materials industries.",
+      "The increase was driven by very strong external demand, Zhang Zhiwei, president and chief economist at Pinpoint Asset Management, told CNBC's \"Squawk Box Asia.\"",
+      "Consumer inflation in Chinaslowed to 0.7% in October, its first deceleration after two straight months of increases.",
+      "The figure missed expectations of a 0.8% rise from economists polled by Reuters, and was lower than the 0.9% seen in September.",
+      "Core inflation, which strips out food and energy prices, came in at 0.8%, down from the 1% seen in the month before.",
+      "The rise in consumer prices were still held up by prices of gasoline, which was the largest contributor to the increase in prices, but this was offset by a sharper than expected fall in food prices, according to Dong Lijuan, chief statistician of the urban division at China's National Bureau of Statistics.",
+      "The Chinese economy has shown some signs of expansion recently. It grewfaster than expectedin the third quarter, and September saw a sharp beat in retail sales."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108545286-1794185503611-gettyimages-2300115692-vcg111674152282.jpeg?v=1794185552&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:36.329367Z",
+    "news_id": 1072
+  },
+  {
+    "title": "یک روند نگران کننده اشتغال در زیر آخرین آمارهای شغلی قوی پنهان شده است",
+    "summary": "آمریکایی‌هایی که این روزها شغل خود را از دست می‌دهند با یک مشکل جدید و سخت روبه‌رو هستند: پیدا کردن سریع شغل دیگری سخت‌تر می‌شود.",
+    "content": [
+      "آمریکایی‌هایی که این روزها شغل خود را از دست می‌دهند با یک مشکل جدید و سخت روبه‌رو هستند: پیدا کردن سریع شغل دیگری سخت‌تر می‌شود.",
+      "با توجه به گزارش مشاغل روز جمعه از اداره آمار کار، میانگین دوره بیکاری کارگران بیکار در ماه اکتبر بر اساس فصلی تنظیم شده از 27 هفته فراتر رفت. این به منزله جستجوی شغلی نزدیک به هفت ماه است که طولانی‌ترین دوره خارج از دوره همه‌گیری از سال 2016 است، زمانی که بازار کار ایالات متحده سرانجام پس از بحران مالی سال 2008 به مسیر خود بازگشت.",
+      "BLS گزارش داد که حدود 2 میلیون آمریکایی برای حداقل 27 هفته بدون کار بوده اند. افراد این گروه به عنوان «بیکاران طولانی مدت» نامیده می شوند و 27.6 درصد از کل کارگران بیکار در اکتبر را تشکیل می دهند که بالاترین سهم از اواخر سال 2021 است.",
+      "کوری استال، اقتصاددان ارشد در Indeed، یک پلتفرم استخدام، گفت: «این سریالی است که ماه به ماه می تواند پر سر و صدا باشد. \"اما اگر به افق زمانی طولانی تری نگاه کنید، هیچ اشتباهی در روند وجود ندارد.\"",
+      "این یک علامت نگران کننده در بازار کار ثابت است. کارگرانی که در حاشیه مانده‌اند قربانی چیزی هستند که به بازار کار «کم‌استخدام، کم آتش» تبدیل شده است، که در آن شرکت‌ها در اخراج کارگران مردد هستند، اما آنها را هم اضافه نمی‌کنند.",
+      "تحقیقات نشان می‌دهد که آمریکایی‌هایی که بیکاری طولانی‌مدت را تجربه می‌کنند با پس‌انداز ضعیف، پتانسیل درآمد کمتر در طول زمان و کاهش سلامت روان روبرو هستند.",
+      "علاوه بر این، محققان در بانک فدرال رزرو ریچموند در اوایل سال جاری نوشتند، کارگرانی که برای مدت طولانی بیکار هستند، در معرض خطر افتادن در یک چرخه خود تداومی هستند.",
+      "محققان هشدار دادند: \"زمان بیکاری ممکن است خود احتمال یافتن شغل را کاهش دهد، شاید به این دلیل که مهارت ها کاهش می یابد، شبکه ها ضعیف می شوند یا کارفرمایان مدت طولانی بیکاری را به عنوان یک سیگنال منفی تفسیر می کنند.\""
+    ],
+    "title_en": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+    "summary_en": "Americans who lose their jobs these days are facing a harsh new problem: It's getting harder to find another one quickly.",
+    "content_en": [
+      "Americans who lose their jobs these days are facing a harsh new problem: It's getting harder to find another one quickly.",
+      "The average jobless worker's bout of unemployment surpassed 27 weeks in October on a seasonally adjusted basis, according toFriday's jobs reportfrom the Bureau of Labor Statistics. That amounts to a job search of nearly seven months, the longest outside of the pandemic period since 2016, when the U.S. labor market was finally getting back on track after the 2008 financial crisis.",
+      "About 2 million Americans have been without work for at least 27 weeks, the BLS reported. People in this category are referred to as the\"long-term unemployed\" and accounted for 27.6% of all jobless workers in October, the highest share since late 2021.",
+      "\"This is a series that can be noisy from month to month,\" said Cory Stahle, senior economist at Indeed, a hiring platform. \"But if you look over a longer time horizon, there is no mistake in the trend.\"",
+      "It's a troubling sign in an otherwise steady labor market. Workers stuck on the sidelines are a casualty of what's become a \"low-hire, low-fire\" job market, in which companies are hesitant to lay workers off, but aren't adding them either.",
+      "Research shows that Americans who experience long-term unemployment face depleted savings, lower earnings potential over time and declining mental health.",
+      "What's more, workers who are unemployed for extended periods risk falling into a self-perpetuating cycle, researchers at the Federal Reserve Bank of Richmondwrote earlier this year.",
+      "\"Time spent unemployed may itself reduce the probability of finding a job, perhaps because skills depreciate, networks thin or employers interpret long unemployment durations as a negative signal,\" the researchers warned."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108373654-1794001082282-108373654-1791321406384-gettyimages-2298350717-NYC_JOBS.jpeg?v=1794001099&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:41.489219Z",
+    "news_id": 1071
+  },
+  {
+    "title": "کاهش رشد چین در ماه اکتبر عمیق تر می شود زیرا تولید صنعتی، خرده فروشی و سرمایه گذاری تخمین زده نمی شود",
+    "summary": "رکود اقتصادی چین در ماه اکتبر بدتر شد زیرا خرده فروشی، سرمایه گذاری و تولید صنعتی همه برآوردهای اقتصاددانان از دست رفته بودند، زیرا تحلیلگران هشدار می دهند که اتکای فزاینده به تقاضای خارجی رشد را بیشت...",
+    "content": [
+      "رکود اقتصادی چین در ماه اکتبر بدتر شد زیرا خرده فروشی، سرمایه گذاری و تولید صنعتی همه برآوردهای اقتصاددانان از دست رفته بودند، زیرا تحلیلگران هشدار می دهند که اتکای فزاینده به تقاضای خارجی رشد را بیشتر در معرض شوک های خارجی قرار می دهد.",
+      "داده‌های روز دوشنبه نشان داد که رکود سرمایه‌گذاری عمیق‌تر شده و خرده‌فروشی دوباره با تولید صنعتی عقب‌مانده است، زیرا مخارج مصرف‌کننده با رکود بازار املاک که ثروت خانوارها را برای پنجمین سال از بین می‌برد، ضعیف شده است.",
+      "خرده فروشی، معیاری از مصرف، 0.4 درصد نسبت به مدت مشابه سال قبل در ماه اکتبر افزایش یافت که پیش بینی تحلیلگران برای افزایش 0.8 درصدی ناامیدکننده بود که از بالاترین سطح شش ماهه 1.1 درصدی در سپتامبر کاهش یافت.",
+      "تولید صنعتی در ماه گذشته نسبت به سال قبل 4.8 درصد افزایش یافت، که برآوردهای تحلیلگران برای رشد 5.3 درصدی را از دست داد و از 5.5 درصد در سپتامبر به شدت کاهش یافت که بالاترین سطح در پنج ماه گذشته است.",
+      "در ده ماه اول سال جاری، سرمایه‌گذاری‌های دارایی‌های ثابت، از جمله دارایی‌ها و زیرساخت‌ها، 8.1 درصد کاهش یافت که باعث عمیق‌تر شدن فروپاشی اقتصاد در سال جاری شد که خارج از دوره کووید-19 بی‌سابقه است. این رقم در مقایسه با انتظارات تحلیلگران برای کاهش 7 درصدی، وخامت قابل توجهی را نشان می دهد.",
+      "ضعف اقتصادی بر بازار کار نیز تاثیر گذاشته است. نرخ بیکاری در ماه اکتبر به 5.1 درصد کاهش یافت، در حالی که نرخ بیکاری برای افراد بین 16 تا 24 سال، به استثنای دانش آموزان، نزدیک به بالاترین سطح در یک سال گذشته بود و در سپتامبر 18 درصد بود.",
+      "رشد دومین اقتصاد بزرگ جهان در سه ماهه سوم به پایین ترین حد سه سال اخیر رسید و نسبت به سال قبل 4.5 درصد رشد کرد. گلدمن ساکس انتظار دارد که اقتصاد چین در سال جاری از رشد 5 درصدی در سال 2025 به 4.6 درصد کاهش یابد و در سال 2027 به 4.5 درصد کاهش یابد.",
+      "بانک وال استریت انتظار دارد که تورم پایین تا سال آینده ادامه یابد و تورم مصرف کننده در سال جاری به 0.8 درصد کاهش یابد و در سال 2027 به 0.5 برسد. این بانک به تقاضای داخلی نرم، عرضه کل فراوان، کاهش حرکت قیمت کالاها و خطرات بالقوه اختلال هوش مصنوعی اشاره کرد."
+    ],
+    "title_en": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+    "summary_en": "China's economic slowdown worsened in October with retail sales, investment and industrial output all missing economists' estimates, as analysts warn a growing reliance on external demand leaves growt...",
+    "content_en": [
+      "China's economic slowdown worsened in October with retail sales, investment and industrial output all missing economists' estimates, as analysts warn a growing reliance on external demand leaves growth more exposed to shocks abroad.",
+      "Monday's data showed the investment slump deepened and retail sales again lagged industrial output, as consumer spending languished with the property market downturn eroding household wealth for a fifth year.",
+      "Retail sales, a gauge of consumption, rose 0.4% from a year ago in October, disappointing analysts' forecast for a 0.8% rise, slowing from a six-month high of 1.1% in September.",
+      "Industrial output expanded 4.8% from a year earlier last month, missing analysts' estimates for 5.3% growth and sharply slowing from 5.5% in September, the highest level in five months.",
+      "For the first ten months of this year, fixed-asset investments, including property and infrastructure, shrank 8.1%, deepening a collapse plaguing the economy this year that's unprecedented outside the Covid-19 period. That figure marked a significant deterioration compared to analysts' expectations for a 7% decline.",
+      "The economic malaise also weighed on the labor market. Unemployment inched lower to 5.1% in October, while the jobless rate for those aged between 16 and 24, excluding students, hovered near the highest level in a year, standing at 18% in September.",
+      "Growth in the world's second-largest economy bounced off three-year lows in the third quarter, expanding 4.5% from a year earlier. Goldman Sachs expects China's economy toslow to 4.6% this year, from 5% expansion in 2025, before easing further to 4.5% in 2027.",
+      "The Wall Street bank expects the low inflation to extend into next year, with consumer inflation ticking lower to 0.8% this year, 0.5 in 2027. It cited soft domestic demand, abundant aggregate supply, easing commodity-price momentum and potential artificial intelligence disruption risks."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108551664-1794786973563-gettyimages-2299353111-img_6622.jpeg?v=1794787492&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:43.361701Z",
+    "news_id": 1070
+  },
+  {
+    "title": "به گفته کارشناسان ETF چگونه آشفتگی انویدیا و یک کنگره دموکراتیک می تواند تجارت هوش مصنوعی را تغییر دهد",
+    "summary": "به گفته کارشناسان سرمایه گذاری که در اوایل این هفته در CNBC \"ETF Edge\" مصاحبه کردند، بزرگترین سهام فناوری مرتبط با تجارت هوش مصنوعی می توانند بیشترین سود را از مشکلات انویدیا و مراکز داده پشتیبان تحت ...",
+    "content": [
+      "به گفته کارشناسان سرمایه گذاری که در اوایل این هفته در CNBC \"ETF Edge\" مصاحبه کردند، بزرگترین سهام فناوری مرتبط با تجارت هوش مصنوعی می توانند بیشترین سود را از مشکلات انویدیا و مراکز داده پشتیبان تحت کنترل دموکرات ها ببرند.",
+      "مدیر عامل Roundhill Investments، Dave Mazza، که شرکتش مدیریت Magnificent Seven ETF (MAGS) را بر عهده دارد، گفت: «ممکن است ما در محیطی قرار گرفته باشیم، همان‌قدر که سرمایه‌گذاران به نوعی به دنبال مناطقی خارج از فناوری بزرگ بودند، جایی که فناوری بزرگ شبکه یک بار دیگر به عنوان برنده پایان می‌یابد.",
+      "بخشی از روند صعودی او: سایر بازیگران در تجارت هوش مصنوعی برای پر کردن تقاضای تراشه‌های انویدیا در موقعیتی قرار می‌گیرند که سرمایه‌گذاران پس از یک هفته پر فراز و نشیب که بنیانگذار و مدیر عامل نمادین آن جنسن هوانگ استعفا داد، اعتماد خود را به شرکت از دست بدهند.",
+      "Mazza در مصاحبه ای با \"ETF Edge\" که روز دوشنبه همزمان با افزایش رسوایی انویدیا اما قبل از استعفای هوانگ رخ داد، گفت: \"اگر وارد محیطی شویم که مردم نتوانند به انویدیا اعتماد کنند، آنها به دنبال منابع دیگری برای این تراشه ها می گردند زیرا به آنها نیاز دارند.\"",
+      "Mazza با بحث در مورد فعالیت اخیر جریان وجوه برای MAGS ETF، و همچنین برای Roundhill Neocloud ETF (NCLD) - که بر ارزش بازار کوچکتر و شرکت های تخصصی رایانش ابری متمرکز است - Mazza گفت: \"به شیوه ای عجیب، [هایپرمقیاس کننده ها] ممکن است همچنان از این سود ببرند زیرا محاسبات را در دسترس دارند. اگر تقاضا وجود داشته باشد ارزشمندتر خواهد بود.\"",
+      "Roundhill Magnificent Seven هفته را در سبز به پایان رساند، البته با افزایش کمتر از 1٪، در حالی که Roundhill Neocloud ETF بیش از 1٪ افزایش یافت، اگرچه درآمدهای شرکت های برتر Coreweave و Nebius تصویر متفاوتی را ارائه کردند.",
+      "CoreWeave بهترین روزهای خود را از آوریل 2025 در روز چهارشنبه پس از آخرین نتایج سه ماهه خود سپری کرد، در حالی که Nebius پس از گزارش پنجشنبه خود، سهام خود را به اشتراک می گذارد. ETF نئوکلاد از زمان راه‌اندازی آن در آگوست ۲۰۲۶، با کاهش ۳۹ درصدی، در بحبوحه نگرانی‌ها در مورد قدرت ترازنامه، که با توجه به نقش انویدیا در تامین مالی ساخت AI ممکن است باقی بماند، عمیقاً در قرمز باقی مانده است. سهام CoreWeave در روز جمعه دوباره سقوط کرد و انویدیا پس از آخرین باخت هفتگی خود، طولانی‌ترین شکست خود را از سال 2012 به ثبت رساند.",
+      "مدیر عامل موقت و مدیر مالی فعلی انویدیا، کولت کرس، اولین فرصت خود را برای اطمینان بخشی به بازار خواهد داشت، وقتی انویدیا درآمد سه ماهه سوم خود را در سه‌شنبه آینده گزارش کرد. کرس در بیانیه‌ای که صبح پنجشنبه هنگام اعلام خروج هوانگ توسط شرکت صادر شد، گفت: «تمرکز ما بر خدمت به مشتریان، شرکا، توسعه‌دهندگان و سهامدارانمان است."
+    ],
+    "title_en": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "summary_en": "The largest technology stocks linked to theartificial intelligencetrade could stand to benefit the most fromNvidia's woesand a Democratic-controlled Congresspushing backon data centers, according to i...",
+    "content_en": [
+      "The largest technology stocks linked to theartificial intelligencetrade could stand to benefit the most fromNvidia's woesand a Democratic-controlled Congresspushing backon data centers, according to investing experts interviewed on CNBC's \"ETF Edge\" earlier this week.",
+      "\"We may have been put in an environment, as much as investors have sort of been looking for areas outside of Big Tech, where net-net Big Tech ends up as the winner once again,\" said Roundhill Investments CEO Dave Mazza, whose firm manages the Magnificent Seven ETF (MAGS).",
+      "Part of his bull case: Other players in the AI trade are positioned tofill Nvidia's chip demandif investors lose trust in the company after a tumultuous week that saw its iconic founder and CEO Jensen Huang resign.",
+      "\"If we get into an environment where people can't trust … Nvidia, they're going to look for other sources for these chips because they need them,\" Mazza said during the \"ETF Edge\" interview, which occurred Monday as the Nvidia scandal grew but before Huang had resigned.",
+      "Discussing recent fund flow activity for the MAGS ETF, as well as for the Roundhill Neocloud ETF (NCLD) — which focuses on smaller market cap, specialized cloud computing companies — Mazza said, \"In a weird way, [hyperscalers] may continue to benefit from this because they have the compute available. It's going to be more valuable if the demand is there.\"",
+      "The Roundhill Magnificent Seven ETF ended the week in the green, albeit with a gain of less than 1%, while the Roundhill Neocloud ETF was up over 1%, though earnings from top holdings Coreweave and Nebius presented a mixed picture.",
+      "CoreWeave had its best daysince April 2025 on Wednesday after its latest quarterly results, whileNebius shares sankafter its Thursday report. The neocloud ETF remains deeply in the red since its August 2026 launch, down 39%, amid concerns about balance sheet strength, which could linger givenNvidia's role in financingthe AI buildout. CoreWeave shares sank again on Friday, and Nvidia posted itslongest losing streaksince 2012 after its latest weekly losses.",
+      "Nvidia's interim CEO and currentchief financial officer Colette Kresswill have her first opportunity to reassure the market when Nvidia reports itsthird-quarter earningsnext Tuesday. \"Our focus remains on serving our customers, partners, developers and shareholders,\" Kress said ina statementissued on Thursday morning when the company announced Huang's exit."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108180544-1754063406073-IMG_8872.jpg?v=1754063887&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:46.161686Z",
+    "news_id": 1069
+  },
+  {
+    "title": "استارت‌آپ سرباز روباتی تحت حمایت اریک ترامپ پس از قرض گرفتن 4.6 میلیون دلار از شرکت برای خرید خانه، نمی‌تواند حقوق کارکنان را پرداخت کند.",
+    "summary": "به گفته افرادی که مستقیماً از این موضوع مطلع هستند، Foundation Future Industries، سازنده ربات‌های انسان‌نمای نظامی که توسط اریک ترامپ مشاوره و پشتیبانی می‌شود، ماه گذشته به دلیل کاهش ذخایر نقدی‌اش، حق...",
+    "content": [
+      "به گفته افرادی که مستقیماً از این موضوع مطلع هستند، Foundation Future Industries، سازنده ربات‌های انسان‌نمای نظامی که توسط اریک ترامپ مشاوره و پشتیبانی می‌شود، ماه گذشته به دلیل کاهش ذخایر نقدی‌اش، حقوق کارمندان را پرداخت نکرد.",
+      "افرادی که خواستند نامشان فاش نشود و صادقانه در مورد یک شرکت خصوصی صحبت کنند، گفتند که کارگران پس از اینکه بنیاد مستقر در سانفرانسیسکو حقوق و دستمزد را در 30 اکتبر رد کرد، هنوز چک حقوق دریافت نکرده اند.",
+      "به گفته مردم، این وضعیت به‌ویژه عده‌ای را در داخل استارت‌آپ خشمگین کرده است، زیرا بنیانگذار و مدیرعامل آن، Sankaet Pathak، سال گذشته 4.6 میلیون دلار از این شرکت وام گرفت تا یک خانه لوکس بخرد، پولی که می‌توانست برای پرداخت حقوق کارگران استفاده شود.",
+      "سوابق عمومی نشان می دهد که یک LLC که Pathak را به عنوان تنها اصلی می نامد، ملکی به ارزش 4.6 میلیون دلار در Sausalito، کالیفرنیا، با \"نماهای سینمایی و گسترده\" از خلیج سانفرانسیسکو در اکتبر 2025 خریداری کرد.",
+      "سخنگوی پاتک اذعان کرد که فهرست دقیقی از نکات مهم این داستان در روز پنجشنبه دریافت کرده است، اما به درخواست ها برای اظهار نظر پاسخی نداد. استارت‌آپ قبلی Pathak، یک شرکت فین‌تک به نام سیناپس، در سال 2024 سقوط کرد و هزاران آمریکایی را از حساب‌های پس‌انداز خود محروم کرد.",
+      "بحران نقدینگی بنیاد در لحظه ای نامطمئن برای این شرکت رخ می دهد، که پاتاک گفته است در آستانه رونمایی از نسل بعدی روبات آماده سلاح است که به ایالات متحده در رقابت با رقبای چینی کمک می کند. در عین حال، پاتاک به دنبال جذب صدها میلیون دلار سرمایه با ارزش 3 میلیارد دلاری است.",
+      "این شرکت امسال به دلیل ادعاهای پاتاک مبنی بر اینکه ربات هایش به زودی در مناطق جنگی در اوکراین یا در مرز ایالات متحده با مکزیک گشت زنی می کنند، سرفصل های خبری را به خود اختصاص داده است. Broadcastinterviewsandarticlesabout Foundation همچنین شامل ادعاهایی است مبنی بر اینکه این شرکت 24 میلیون دلار در قراردادهای پنتاگون برنده شده است.",
+      "پاتاکسایدین در مصاحبه ای تلویزیونی در آوریل گفت: «آنچه در چند ماه آینده رونمایی خواهیم کرد، قوی ترین ربات انسان نما خواهد بود که در هر نقطه از جهان از جمله چین وجود دارد."
+    ],
+    "title_en": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+    "summary_en": "Foundation Future Industries, a maker of military humanoid robots advised and backed by Eric Trump, failed to pay employees last month as its cash reserves dwindled, according to people with direct kn...",
+    "content_en": [
+      "Foundation Future Industries, a maker of military humanoid robots advised and backed by Eric Trump, failed to pay employees last month as its cash reserves dwindled, according to people with direct knowledge of the matter.",
+      "Workers have yet to receive paychecks after San Francisco-basedFoundationmissed payroll on Oct. 30, said the people, who asked for anonymity to speak candidly about a private company.",
+      "The situation has particularly angered some inside the startup because its co-founder and CEO,Sankaet Pathak, borrowed $4.6 million from the company last year to buy a luxury home, money that could have been used to pay workers, the people said.",
+      "Public records show that an LLC that names Pathak as sole principal purchased a $4.6 million Sausalito, California, property with \"sweeping, cinematic views\" of the San Francisco Bay in October 2025.",
+      "A spokesman for Pathak acknowledged receiving a detailed list of the major points from this story on Thursday, but didn't respond to requests for comment. Pathak's previous startup, a fintech firm namedSynapse,collapsed in 2024, leaving thousands of Americanslocked out of their savings accounts.",
+      "Foundation's cash crunch comes at a precarious moment for the company, which Pathak has said is close to unveiling a next-generation, weapons-ready robot that will help the U.S. compete against Chinese rivals. At the same time, Pathak is seeking to raise hundreds of millions of dollars in funding at a $3 billion valuation.",
+      "The company has garnered headlines this year for Pathak's claims that his robots could soon take onbattlefieldtasks in Ukraine orpatrol the U.S. borderwith Mexico. Broadcastinterviewsandarticlesabout Foundation also include claims that the company has won $24 million in Pentagon contracts.",
+      "\"What we're about to unveil in the next couple of months [is] going to be the strongest humanoid robot that exists anywhere in the world, including China,\" Pathaksaidin an April television interview."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108313716-17800536432026-03-12t071236z_1666355942_rc27fjaubt68_rtrmadp_0_tech-robots-conflict-zones.jpeg?v=1780053657&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:47.787358Z",
+    "news_id": 1068
+  },
+  {
+    "title": "Lutnick در مورد رسوایی جاسوسی Nvidia با سؤالاتی روبرو است. شرکت پسرانش با تراشه ساز ارتباط دارد",
+    "summary": "بر اساس گزارش تحقیقاتی Cantor که توسط CNBC بررسی شد، در اواخر سپتامبر، Cantor Fitzgerald میزبان مدیران ارشد NvidiaCEOJensen Huang و دیگر مدیران ارشد سازنده تراشه برای جلسات سرمایه‌گذار در نیویورک بود.",
+    "content": [
+      "بر اساس گزارش تحقیقاتی Cantor که توسط CNBC بررسی شد، در اواخر سپتامبر، Cantor Fitzgerald میزبان مدیران ارشد NvidiaCEOJensen Huang و دیگر مدیران ارشد سازنده تراشه برای جلسات سرمایه‌گذار در نیویورک بود.",
+      "سی جی میوز تحلیلگر Cantor و همکارانش در تحقیقی که در 3 اکتبر گزارش شده بود، نوشتند: \"ما NVDA را به عنوان بهترین ریسک/پاداش در پوشش خود می بینیم.\"",
+      "با این حال، این شرکت که قبلا توسط هاوارد لوتنیکاند، وزیر بازرگانی اداره می شد و اکنون توسط پسرانش، براندون و کایل رهبری می شد، طبق تحلیل CNBC از پرونده های اوراق بهادار که گزینه های اختیاری را حذف می کند، تقریباً 50 درصد کاهش در تعداد سهام انویدیا را بین سپتامبر 2025 و مارس 2026 گزارش کرد. Nvidia یکی از بزرگترین موقعیت های سهام گزارش شده در پرونده های Cantor بود.",
+      "این کاهش همزمان با فشار مقامات کاخ سفید و اطلاعات ایالات متحده به لوتنیک برای سرکوب مگاسپید، یک شرکت سنگاپوری مظنون به انتقال تراشه های هوش مصنوعی پیشرفته انویدیا به چین بود. Axios در 11 نوامبر گزارش داد که Lutnick بارها در برابر این تلاش ها مقاومت کرد.",
+      "طبق گزارش اکسیوس در 10 نوامبر، زمانی که کانتور میزبان هوانگ در نیویورک بود، لوتنیک هشدارهای اطلاعاتی طبقه‌بندی‌شده را نیز دریافت کرده بود، در مورد روابط هوانگ با یک جاسوس مظنون چینی و در کنار مدیرعامل در اجلاس فناوری G20 در کارولینای شمالی ظاهر شده بود.",
+      "حتی زمانی که کانتور سهام خود را در انویدیا کاهش داد، به تجارت در سراسر امپراتوری هوش مصنوعی این سازنده تراشه ادامه داد. بررسی CNBC از پرونده‌های اوراق بهادار، اعلامیه‌های شرکت‌ها و تحقیقات وال استریت نشان داد که این شرکت به ترتیب میلیاردها دلار در تامین مالی برای شرکای تجاری انویدیا و حفظ روابط نزدیک با رهبری سازنده تراشه کمک کرده است.",
+      "این روابط پس از استعفای هوانگ در روز پنجشنبه و گزارش Axios مبنی بر اینکه Lutnick مکرراً در برابر سرکوب شرکت‌های مظنون به قاچاق چیپ‌های Nvidia به چین مقاومت می‌کند، با وجود اینکه رئیس‌جمهور دونالد ترامپ برای سومین بار در 5 نوامبر محدودیت‌های صادراتی جدید را برای این شرکت‌ها مجاز کرده بود، مورد بررسی قرار گرفت.",
+      "یک کارشناس اخلاق گفت که رابطه بین Lutnick و سرمایه‌گذاری‌های شرکت سابقش ممکن است با توجه به اطلاعاتی که وزیر درباره Nvidia می‌دانست، سؤالاتی را ایجاد کند."
+    ],
+    "title_en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+    "summary_en": "In late September, Cantor Fitzgerald hostedNvidiaCEOJensen Huangand other top executives from the chipmaker for investor meetings in New York, according to a Cantor research report reviewed by CNBC.",
+    "content_en": [
+      "In late September, Cantor Fitzgerald hostedNvidiaCEOJensen Huangand other top executives from the chipmaker for investor meetings in New York, according to a Cantor research report reviewed by CNBC.",
+      "\"We continue to view NVDA as the best risk/reward in our coverage,\" Cantor analyst C.J. Muse and his colleagues wrote in a researchreportdated Oct. 3 that maintained a $350 price target and overweight rating on the stock.",
+      "Yet the firm, formerly run by Commerce SecretaryHoward Lutnickand now led by his sons, Brandon and Kyle, reported a nearly 50% decline in the number of Nvidia shares it held betweenSeptember 2025andMarch 2026, according to a CNBC analysis of securities filings that excludes options. Nvidia had been one of the largest stock positions reported in Cantor's filings.",
+      "The decline coincided with White House and U.S. intelligence officials pressing Lutnick to crack down onMegaspeed, a Singapore-based company suspected of funneling Nvidia's advanced artificial intelligence chips toChina. Lutnick repeatedly resisted those efforts,Axiosreported Nov. 11.",
+      "By the time Cantor hosted Huang in New York, Lutnick had also received aclassified intelligencewarning, according to a Nov. 10 Axios report, about Huang's ties to a suspected Chinese spy and had appeared alongside the CEO at aG20 technology summitin North Carolina.",
+      "Even as Cantor pared back its Nvidia stake, it continued doing business across the chipmaker's AI empire. A CNBC review of securities filings, corporate announcements and Wall Street research found the firm has helped arrange billions of dollars in financing for Nvidia's business partners while maintaining close ties to the chipmaker's leadership.",
+      "Those ties have drawn fresh scrutiny following Huang's resignation Thursday and Axios' reporting that Lutnick repeatedly resisted a crackdown on companies suspected of smuggling Nvidia chips to China, despite PresidentDonald Trumpauthorizing new export restrictions on those companies for a third time on Nov. 5.",
+      "An ethics expert said the relationship between Lutnick and his former firm's investments may raise questions, given what the secretary knew about Nvidia."
+    ],
+    "category": "trade",
+    "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108358099-1788382594543-gettyimages-2292668728-AFP_C77N49R.jpeg?v=1788382709&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:50.002958Z",
+    "news_id": 1067
+  },
+  {
+    "title": "Goolsbee، رئیس فدرال رزرو شیکاگو، می گوید که بانک مرکزی «قطعاً کارهایی برای انجام دادن» در مورد تورم دارد.",
+    "summary": "آستن گولسبی، رئیس فدرال رزرو شیکاگو، در مورد آخرین آمار تورم ابراز نگرانی کرد و روز جمعه به CNBC گفت که بانک مرکزی احتمالاً باید اقداماتی را انجام دهد.",
+    "content": [
+      "آستن گولسبی، رئیس فدرال رزرو شیکاگو، در مورد آخرین آمار تورم ابراز نگرانی کرد و روز جمعه به CNBC گفت که بانک مرکزی احتمالاً باید اقداماتی را انجام دهد.",
+      "این سیاستگذار در گفت و گو با «Squawk Box» گفت: معتقدم بانک مرکزی قطعاً باید برای بازگرداندن اعتبار خود کار کند.",
+      "اظهارات وی اندکی پس از آن بیان شد که اداره آمار کار گزارش داد که شاخص قیمت تولیدکننده، که به عنوان نماینده ای برای قیمت های عمده فروشی در نظر گرفته می شود، در ماه اکتبر 0.3 درصد افزایش داشت که اندکی کمتر از حد انتظار بود، اما همچنین نشان دهنده افزایش 6.5 درصدی سالانه بود که بالاترین میزان از نوامبر 2022 بود.",
+      "با توجه به اطلاعاتی که در اوایل هفته در دست داشت نشان می داد که شاخص قیمت مصرف کننده در طول ماه کمی بیشتر از حد انتظار افزایش یافته است، Goolsbee گفت که فدرال رزرو از هدف تورم 2 درصدی خود دورتر می شود.",
+      "وی گفت: نزدیک به شش سال است که بالای 2 درصد بوده‌ایم و در حالی که گاهی اوقات پیشرفت می‌کردیم، اخیراً هیچ پیشرفتی نداریم و اگر چیزی باشد مسیر را اشتباه می‌رود.",
+      "گولزبی افزود: \"تورم در حال افزایش است. ثابت شده است که از شوک های عرضه در ابتدا بیش از آنچه در ابتدا پیش بینی می کردیم پایدارتر است، و اکنون ما این گرمای بیش از حد تقاضای قدیمی ناشی از ساخت مرکز داده هوش مصنوعی را اضافه می کنیم، که به نظر می رسد شروع به گسترش از مسیر خود کرده است.\"",
+      "هنگامی که کمیته بازار آزاد فدرال تعیین نرخ در 8-9 دسامبر تشکیل جلسه می دهد، بازارها به طور کامل با یک چهارم درصد افزایش قیمت گذاری می کنند. بر اساس گزارش FedWatchgauge بازارهای آتی گروه CME، احتمال افزایش نیم امتیازی نیز بهتر از 10 درصد است. Goolsbee در حال حاضر رای دهنده FOMC نیست اما در سال 2027 خواهد بود.",
+      "در اوایل هفته، کریستوفر والر، رئیس فدرال رزرو اعلام کرد که بسته به داده های تورم این هفته، 50 واحد پایه حرکت خواهد کرد."
+    ],
+    "title_en": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+    "summary_en": "Chicago Federal Reserve President Austan Goolsbee expressed concern about the latest inflation data, telling CNBC on Friday that the central bank likely will need to take action.",
+    "content_en": [
+      "Chicago Federal Reserve President Austan Goolsbee expressed concern about the latest inflation data, telling CNBC on Friday that the central bank likely will need to take action.",
+      "\"I believe that the the central bank has definitely got work to do to continue to reestablish its credibility,\" the policymaker said during an interview on\"Squawk Box.\"",
+      "His remarks came shortly after the Bureau of Labor Statistics reported that theproducer price index, considered a proxy for wholesale prices, posted a 0.3% increase in October, which was slightly less than expected, but also indicated a 6.5% annual gain, the highest since November 2022.",
+      "With data in hand earlier in the week showing that theconsumer price indexrose a bit more than expected during the month, Goolsbee said the Fed is slipping further away from its 2% inflation target.",
+      "\"We've been above 2% for almost six years, and while it sometimes we were making progress, lately we're not making any progress, and if anything, it's going the wrong way,\" he said.",
+      "\"Inflation is rising. It's proved far more persistent than we predicted at the beginning from the supply shocks, and now we're adding this old-fashioned demand overheating coming from the AI data center buildout, that looks like it's starting to spread out of its lane,\" Goolsbee added.",
+      "Markets are fully pricing in a quarter percentage point increase when the rate-setting Federal Open Market Committee meets next on Dec. 8-9. There also is a better than 10% probability of a half-point hike, according to the CME Group'sFedWatchgauge of futures markets. Goolsbee is not currently an FOMC voter but will be in 2027.",
+      "Earlier in the week,Fed Governor Christopher Wallerindicated he would entertain a 50 basis point move depending on this week's inflation data."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108355873-1787937828260-_05A6307.jpg?v=1787937944&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:53.510056Z",
+    "news_id": 1066
+  },
+  {
+    "title": "چگونه ماجرای جنسن هوانگ چشم انداز روابط ایالات متحده و چین را تغییر می دهد",
+    "summary": "پکن - بررسی طولانی مدت کنگره ایالات متحده بر رابطه جنسن هوانگ، مدیر عامل سابق انویدیا با یک جاسوس چینی، خطر روابط پرتنش بین دو اقتصاد بزرگ جهان را افزایش می دهد.",
+    "content": [
+      "پکن - بررسی طولانی مدت کنگره ایالات متحده بر رابطه جنسن هوانگ، مدیر عامل سابق انویدیا با یک جاسوس چینی، خطر روابط پرتنش بین دو اقتصاد بزرگ جهان را افزایش می دهد.",
+      "هوانگ از انویدیا روز پنجشنبه استعفا داد و موافقت کرد تا قبل از روز شکرگزاری در 26 نوامبر در مقابل کنگره شهادت دهد. برایان ماست، رئیس امور خارجه مجلس نمایندگان آمریکا، به خبرنگاران گفت که ممکن است \"جلسه های عمومی برای افراد دیگر یا موارد دیگر در آینده\" برگزار شود.",
+      "یک پژوهشگر سیاست خارجی مستقر در پکن که خواست نامش فاش نشود، زیرا دانشگاهیان به دلیل صحبت با رسانه ها در خطر انضباط یا حتی اخراج هستند، گفت: \"من نگرانم که این حادثه جو واشنگتن علیه چین و همچنین مسائل کنترل صادرات و همچنین دولت ترامپ در نحوه برخورد با چین را به شدت بدتر کند.\"",
+      "این محقق در مورد بازگشت احتمالی به وضعیتی مانند آن در دهه 1990 هشدار داد، زمانی که یک فیزیکدان هسته ای \"چینی-آمریکایی\" مظنون به اشتراک گذاری اسرار هسته ای با دولت چین بود که منجر به پیگرد قانونی فدرال شد. دادگاه در نهایت همه 59 مورد به جز یکی را رد کرد.",
+      "اکنون روابط دوجانبه که با یک آتش بس تجاری شکننده حمایت می شود، با اتهام جاسوسی دیگری مواجه است. و این بار پیرامون مدیر اجرایی فناوری در قلب رقابت ایالات متحده و چین بر سر هوش مصنوعی است.",
+      "میچ پرسنیک، همکار افتخاری غیر مقیم در اقتصاد چین، مرکز تحلیل چین در انجمن آسیا، گفت: «این واقعاً مربوط به جنسن نیست.",
+      "وی خاطرنشان کرد که چگونه برخی در واشنگتن اقداماتی را برای حذف چین ترجیح می دهند و با پیام مدیر اجرایی نیمه هادی مبنی بر اینکه فناوری آمریکایی باید در چین استفاده شود تا با توسعه فناوری جهانی مرتبط بماند، مخالفت کردند.",
+      "واشنگتن شروع به محدود کردن توانایی انویدیا برای فروش تراشه های پیشرفته به چین در سال 2022 کرد. اما دولت ترامپ بسیاری از محدودیت های دوران بایدن را در سال 2025 کاهش داد."
+    ],
+    "title_en": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+    "summary_en": "BEIJING — Prolonged U.S. Congressional scrutiny of formerNvidiaCEO Jensen Huang's affair with an alleged Chinese spy raises the stakes for already tense relations between the world's two largest econo...",
+    "content_en": [
+      "BEIJING — Prolonged U.S. Congressional scrutiny of formerNvidiaCEO Jensen Huang's affair with an alleged Chinese spy raises the stakes for already tense relations between the world's two largest economies.",
+      "Nvidia's Huang resigned Thursday, andagreed to testify before Congresssometime before Thanksgiving on Nov. 26. House Foreign Affairs Chair Brian Mast, R-Fla., told reporters there could be \"public hearings for other people or other things down road.\"",
+      "\"I worry this incident will deteriorate the atmosphere dramatically in Washington against China, and also export control matters, and also the Trump administration in its way of dealing with China,\" said a Beijing-based foreign policy researcher, who requested anonymity as academics risk discipline or even removal for speaking to the media.",
+      "The researcher warned of a possible return to a situation like that in the 1990s, when a \"Chinese-American\" nuclear physicist wassuspected of sharing nuclear secrets with the Chinese government, resulting in afederal prosecution. The court ultimatelydismissed all but one of 59counts.",
+      "Now the bilateral relationship, supported by a fragile trade truce, faces anotherespionage allegation. And this time it's around the tech executive at the heart of the U.S.-China competition over artificial intelligence.",
+      "\"This isn't really about Jensen,\" said Mitch Presnick, non-resident honorary fellow on the Chinese economy, Center for China Analysis at the Asia Society.",
+      "He noted how some in Washington prefer measures to exclude China and disagreed with the semiconductor executive's message thatAmerican technology needed to be used in Chinain order to remain relevant to global tech development.",
+      "Washington started torestrict Nvidia'sability to sell advanced chips to China in 2022. But theTrump administrationeased many Biden-era restrictionsin 2025."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+    "image": "https://image.cnbcfm.com/api/v1/image/108549746-1794465996644-gettyimages-2276121798-aw1a2254_gzrmeire.jpeg?v=1794466049&w=1920&h=1080",
+    "timestamp": "2026-11-19T01:50:55.880196Z",
+    "news_id": 1065
+  },
+  {
+    "title": "سهام Palo Alto Networks از درآمدهای خود با هوش مصنوعی تقویت می شود",
+    "summary": "این شرکت چشم انداز خود را در مواجهه با \"محیط تهدید فعلی و تقاضایی که پیش روی خود می بینیم\" تقویت می کند.",
+    "content": [
+      "این شرکت چشم انداز خود را در مواجهه با \"محیط تهدید فعلی و تقاضایی که پیش روی خود می بینیم\" تقویت می کند."
+    ],
+    "title_en": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+    "summary_en": "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+    "content_en": [
+      "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”"
+    ],
+    "category": "forex_gold",
+    "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-839193",
+    "timestamp": "2026-11-19T01:50:58.202772Z",
+    "news_id": 1064
+  },
+  {
+    "title": "\"من یک مادر خانه نشین بوده ام\": 50 ساله هستم و یک بیماری مزمن دارم. شوهرم شغلش را از دست داد. آیا او باید به 401(k) خود حمله کند؟",
+    "summary": "وضعیت مالی و بهداشتی ما به طور فزاینده ای نگران کننده شده است.",
+    "content": [
+      "وضعیت مالی و بهداشتی ما به طور فزاینده ای نگران کننده شده است."
+    ],
+    "title_en": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+    "summary_en": "“Our financial and healthcare situation has become increasingly concerning.”",
+    "content_en": [
+      "“Our financial and healthcare situation has become increasingly concerning.”"
+    ],
+    "category": "forex_gold",
+    "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-96657818",
+    "timestamp": "2026-11-19T01:50:59.215453Z",
+    "news_id": 1063
+  },
+  {
+    "title": "«آشفتگی انویدیا من را به وحشت انداخته است»: آیا باید سهامم را بفروشم و املاک بخرم - یا از طوفان بیرون بیایم؟",
+    "summary": "وسوسه شده اید که سهام را برای ملک یا سی دی کنار بگذارید؟ قبل از انجام هر حرکت ناگهانی نفس عمیق بکشید.",
+    "content": [
+      "وسوسه شده اید که سهام را برای ملک یا سی دی کنار بگذارید؟ قبل از انجام هر حرکت ناگهانی نفس عمیق بکشید."
+    ],
+    "title_en": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+    "summary_en": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+    "content_en": [
+      "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves."
+    ],
+    "category": "markets",
+    "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-49247042",
+    "timestamp": "2026-11-19T01:50:59.706522Z",
+    "news_id": 1062
+  },
+  {
+    "title": "معنای \"صلیب مرگ\" در سهام با سرمایه کوچک برای بقیه بازار چیست",
+    "summary": "الگوی نمودار منفی ضعف راسل 2000 و وسعت کلی بازار را تایید می کند.",
+    "content": [
+      "الگوی نمودار منفی ضعف راسل 2000 و وسعت کلی بازار را تایید می کند."
+    ],
+    "title_en": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+    "summary_en": "The negative chart pattern confirms weakness in the Russell 2000 and in overall market breadth.",
+    "content_en": [
+      "The negative chart pattern confirms weakness in the Russell 2000 and in overall market breadth."
+    ],
+    "category": "markets",
+    "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-10621369",
+    "timestamp": "2026-11-19T01:51:00.241353Z",
+    "news_id": 1061
+  },
+  {
+    "title": "چگونه سقوط مس می تواند به ساختار هوش مصنوعی آسیب برساند",
+    "summary": "جهان ممکن است نتواند مس کافی برای پاسخگویی به تقاضای هوش مصنوعی در سال‌های آینده استخراج کند.",
+    "content": [
+      "جهان ممکن است نتواند مس کافی برای پاسخگویی به تقاضای هوش مصنوعی در سال‌های آینده استخراج کند."
+    ],
+    "title_en": "How copper’s plunge could hurt the AI buildout",
+    "summary_en": "The world might not be able to mine enough copper to meet AI’s demand for years to come.",
+    "content_en": [
+      "The world might not be able to mine enough copper to meet AI’s demand for years to come."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-00878096",
+    "timestamp": "2026-11-19T01:51:01.299423Z",
+    "news_id": 1060
+  },
+  {
+    "title": "با عقب افتادن فناوری، بازار سهام تحت تاثیر بزرگترین تحولات یک نسل است",
+    "summary": "سهام فناوری ارزان به نظر می رسد، در حالی که بخش های دفاعی مانند کالاهای مصرفی گران هستند.",
+    "content": [
+      "سهام فناوری ارزان به نظر می رسد، در حالی که بخش های دفاعی مانند کالاهای مصرفی گران هستند."
+    ],
+    "title_en": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+    "summary_en": "Tech stocks are looking cheap, while defensive sectors like consumer staples are screening as expensive.",
+    "content_en": [
+      "Tech stocks are looking cheap, while defensive sectors like consumer staples are screening as expensive."
+    ],
+    "category": "forex_gold",
+    "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+    "image": "https://images.mktw.net/im-28661518",
+    "timestamp": "2026-11-19T01:51:01.843410Z",
+    "news_id": 1059
+  },
+  {
     "title": "جف بزوس می گوید که در انتخاب رابرت پتینسون به عنوان باند جدید «به شدت درگیر» بوده است",
     "summary": "تماشا کنید: جف بزوس در مورد مشارکت در انتخاب رابرت پتینسون برای نقش جیمز باند",
     "content": [
@@ -1488,169 +2324,5 @@
     "image": "https://image.cnbcfm.com/api/v1/image/108061571-17314280082024-11-12t160127z_566720729_rc2r3ba9xte4_rtrmadp_0_usa-fed-waller.jpeg?v=1745513196&w=1920&h=1080",
     "timestamp": "2026-11-18T19:56:50.344536Z",
     "news_id": 1009
-  },
-  {
-    "title": "پوتین می‌گوید اتحادیه اروپا در آستانه دیدار با ترامپ و شی، صنعت را از دست می‌دهد و از رقابت عقب می‌ماند",
-    "summary": "شنژن، چین - ولادیمیر پوتین، رئیس‌جمهور روسیه، در سخنرانی روز چهارشنبه در اجلاس مدیر عامل همکاری اقتصادی آسیا و اقیانوسیه گفت که اتحادیه اروپا از رقابت عقب مانده است.",
-    "content": [
-      "شنژن، چین - ولادیمیر پوتین، رئیس‌جمهور روسیه، در سخنرانی روز چهارشنبه در اجلاس مدیر عامل همکاری اقتصادی آسیا و اقیانوسیه گفت که اتحادیه اروپا از رقابت عقب مانده است.",
-      "بر اساس ترجمه رسمی انگلیسی، پوتین گفت: «اتحادیه اروپا اکنون در حال از دست دادن ظرفیت صنعتی خود است و در حال شکست در رقابت است.",
-      "پوتین از این سخنرانی برای تاکید بر انعطاف‌پذیری اقتصادی روسیه علی‌رغم تحریم‌های ایالات متحده استفاده کرد و از فرصت‌ها برای اعضای APEC در این کشور، از فناوری گرفته تا توسعه اقتصادی، استفاده کرد.",
-      "او سومین رهبر APEC بود که در این اجلاس سخنرانی کرد و پس از اظهارات شی جین پینگ، رئیس جمهور چین و انور ابراهیم، ​​نخست وزیر مالزی، سخنرانی کرد.",
-      "پوتین در سخنرانی خود بر توانایی این کشور برای مقاومت در برابر کاهش شدید مبادلات دلاری و یورویی خود تاکید کرد. او همچنین از اعضا خواست تا از روسیه در میزبانی APEC در سال 2035 حمایت کنند.",
-      "رهبر روسیه قرار است روز پنج‌شنبه با شی و دونالد ترامپ، رئیس‌جمهور آمریکا در یک دیدار تاریخی گفتگو کند که می‌تواند طیف گسترده‌ای از موضوعات از جمله عدم اشاعه هسته‌ای و همچنین احتمالاً جنگ روسیه با اوکراین را مورد بحث قرار دهد. به گفته رسانه های دولتی چین، او روز چهارشنبه با شی دیدار کرد.",
-      "به گزارش رسانه محلی روسیه تودی، یوری اوشاکوف، دستیار رئیس جمهور روسیه، هفته گذشته گفت که نشست در شنژن به تلاش ها برای دستیابی به یک راه حل مذاکره برای جنگ اوکراین ادامه خواهد داد.",
-      "دیوید روش، استراتژیست کوانتوم استراتژی، اوایل این هفته به CNBC گفت: این نشست احتمالاً نتیجه مشخص کمی خواهد داشت، اما \"تقریباً 100٪ عملیات عکس\" را ارائه می دهد که موقعیت و قدرت چین را در جدول بالا ارتقا می دهد."
-    ],
-    "title_en": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-    "summary_en": "SHENZHEN, China — Russian President Vladimir Putin said the European Union was falling behind competition in a speech Wednesday at the Asia-Pacific Economic Cooperation CEO Summit.",
-    "content_en": [
-      "SHENZHEN, China — Russian President Vladimir Putin said the European Union was falling behind competition in a speech Wednesday at the Asia-Pacific Economic Cooperation CEO Summit.",
-      "\"The EU is now losing its industrial capacity and it's losing in the competition,\" Putin said, according to an official English translation.",
-      "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country, from tech to economic development.",
-      "He was the third APEC leader to speak at the summit, and followed remarks by Chinese President Xi Jinping and Malaysian Prime Minister Anwar Ibrahim.",
-      "In his speech, Putin highlighted the country's ability to withstand a sharp drop in its U.S. dollar- and euro-denominated transactions. He also urged members to support Russia in hosting APEC in 2035.",
-      "The Russian leader is set to hold talks on Thursday with Xi and U.S. President Donald Trump in a historic meeting that could see a wide range of issues being discussed, including nuclear non-proliferation and also possibly Russia's war with Ukraine. He met with Xi on Wednesday, according to Chinese state media.",
-      "Russian presidential aide Yuri Ushakov said last week the meeting in Shenzhen would continue the efforts aimed at reaching a negotiated settlement to the Ukraine war, according tostate-controlled local mediaRussia Today.",
-      "The summit will likely yield little concrete result, but presents an \"almost 100% photo op\" that lifts China's status and power at the top table, David Roche, strategist at Quantum Strategy, told CNBC's \"Access Middle East\" earlier this week."
-    ],
-    "category": "forex_gold",
-    "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-    "image": "https://image.cnbcfm.com/api/v1/image/108553843-1794982342770-gettyimages-2305146051-AFP_D7U27T9.jpeg?v=1794986215&w=1920&h=1080",
-    "timestamp": "2026-11-18T19:56:52.068992Z",
-    "news_id": 1008
-  },
-  {
-    "title": "سه چیز برای تماشای دیدار ترامپ، شی و پوتین در چین",
-    "summary": "شنژن، چین - رهبران ایالات متحده، چین، روسیه و دیگر اقتصادهای بزرگ آسیا-اقیانوسیه در حالی که برای نشست سالانه این هفته گرد هم می آیند با یک سری مسائل حیاتی از جنگ گرفته تا امنیت فناوری روبرو هستند.",
-    "content": [
-      "شنژن، چین - رهبران ایالات متحده، چین، روسیه و دیگر اقتصادهای بزرگ آسیا-اقیانوسیه در حالی که برای نشست سالانه این هفته گرد هم می آیند با یک سری مسائل حیاتی از جنگ گرفته تا امنیت فناوری روبرو هستند.",
-      "از زمان آخرین نشست رهبران APEC، تنش های چین با ژاپن تشدید شده است. روابط ایالات متحده و چین که به سختی تثبیت شده است، در پی بررسی موشکافانه واشنگتن بر فروش تراشه های انویدیا در چین، با آزمایش های جدیدی روبرو شد. و جنگ ایران که اکنون در نهمین ماه خود قرار دارد، همچنان بر قیمت جهانی انرژی فشار می آورد، در حالی که جنگ روسیه و اوکراین به درازا کشیده است.",
-      "در همین حال، برای پکن، میزبان سلسله نشست‌های همکاری اقتصادی آسیا-اقیانوسیه امسال، این گردهمایی چندجانبه مکان دیگری برای ایجاد نفوذ جهانی آن است. رئیس جمهور چین، شی جین پینگ، روز سه شنبه با مارک کارنی، نخست وزیر کانادا و رئیس جمهور ویتنام تو لام دیدار کرد. ویتنام میزبان نشست های APEC در سال آینده است.",
-      "شی چین خواستار رفع موانع تجاری و سرمایه گذاری شد",
-      "پوتین می گوید اتحادیه اروپا صنعت را از دست می دهد و از رقابت عقب می ماند",
-      "سه چیز برای تماشای دیدار ترامپ، شی و پوتین در چین",
-      "به گزارش رسانه های دولتی چین، ولادیمیر پوتین، رئیس جمهور روسیه بامداد چهارشنبه وارد شنژن شد و در آنجا مورد استقبال کای چی، عضو کمیته دائمی دفتر سیاسی چین قرار گرفت. دونالد ترامپ، رئیس جمهور ایالات متحده، پیش از عزیمت به شنژن، برای شرکت در اجلاس سران آسه آن در فیلیپین حضور دارد.",
-      "انتظار می رود ترامپ و شی در کنار نشست رهبران اقتصادی APEC چهارشنبه و پنجشنبه با یکدیگر دیدار کنند. نشست سران آن‌ها در اطراف گردهمایی سال گذشته در کره جنوبی، آتش‌بس تجاری یک ساله با تعرفه‌های پایین‌تر و برخی جریان‌های خاکی کمیاب را آغاز کرد که به مدت دو ماه تا ژانویه 2027 تمدید شد."
-    ],
-    "title_en": "Three things to watch as Trump, Xi and Putin meet in China",
-    "summary_en": "SHENZHEN, China — Leaders of the U.S., China, Russia and other major Asia-Pacific economies face a series of critical issues from wars to tech security as they gather for an annual summit this week.",
-    "content_en": [
-      "SHENZHEN, China — Leaders of the U.S., China, Russia and other major Asia-Pacific economies face a series of critical issues from wars to tech security as they gather for an annual summit this week.",
-      "Since the last APEC leaders' meeting,China's tensions with Japan have escalated. Barely stabilizedU.S.-China relationsface new tests in the wake of Washington's scrutiny ofNvidia's China chip sales. And theIran war, now in its ninth month, is still pressuring global energy prices, while theRussia-Ukraine war has dragged on.",
-      "Meanwhile for Beijing, host to this year's series of Asia-Pacific Economic Cooperation meetings, the multilateral gathering is yet another venue to build its global influence. Chinese President Xi Jinping met Tuesday with Canadian Prime MinisterMark Carneyand the President of VietnamTo Lam. Vietnam is hosting next year's APEC meetings.",
-      "China's Xi calls for removing trade and investment barriers",
-      "Putin says EU is losing industry, falling behind competition",
-      "Three things to watch as Trump, Xi and Putin meet in China",
-      "Russian President Vladimir Putin arrived in Shenzhen early Wednesday morning, where he was greeted by Chinese Politburo Standing Committee Member Cai Qi, according to Chinese state media. U.S. President Donald Trump is in the Philippines for the ASEAN Summit before heading to Shenzhen.",
-      "Trump and Xi are expected to meet alongside the APEC Economic Leaders' Meeting Wednesday and Thursday. Their summit around the gathering last year in South Korea ushered in a one-year trade truce of lower tariffs and some rare earths flows, which was extended by two months, to January 2027."
-    ],
-    "category": "forex_gold",
-    "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
-    "image": "https://image.cnbcfm.com/api/v1/image/108553723-1794964906957-gettyimages-2305438045-16.jpeg?v=1794964990&w=1920&h=1080",
-    "timestamp": "2026-11-18T19:56:54.382116Z",
-    "news_id": 1007
-  },
-  {
-    "title": "واشنگتن در تلاش است تا به تعداد فزاینده قطعی فناوری در سراسر آمریکا دست یابد",
-    "summary": "دولت ترامپ و کنگره برای رسیدگی به مجموعه ای از شکست های فناوری که در هفته گذشته به ایالات متحده وارد شده عجله کرده اند، به طوری که معاون رئیس جمهور جی دی ونس از یک رویداد در روز چهارشنبه عقب نشینی کرد...",
-    "content": [
-      "دولت ترامپ و کنگره برای رسیدگی به مجموعه ای از شکست های فناوری که در هفته گذشته به ایالات متحده وارد شده عجله کرده اند، به طوری که معاون رئیس جمهور جی دی ونس از یک رویداد در روز چهارشنبه عقب نشینی کرد تا در جلسات مربوط به این موضوع شرکت کند."
-    ],
-    "title_en": "Washington is scrambling to get to the bottom of the growing number of tech outages across America",
-    "summary_en": "The Trump administration and Congress have been rushing to address the series of technology failures that have hit the U.S. over the past week, with Vice President J.D. Vance withdrawing from an event...",
-    "content_en": [
-      "The Trump administration and Congress have been rushing to address the series of technology failures that have hit the U.S. over the past week, with Vice President J.D. Vance withdrawing from an event Wednesday in order to take part in meetings on the issue."
-    ],
-    "category": "forex_gold",
-    "link": "https://www.marketwatch.com/story/washington-is-scrambling-to-get-to-the-bottom-of-the-growing-number-of-tech-outages-across-america-66fbf299?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-81190503",
-    "timestamp": "2026-11-18T19:56:55.859674Z",
-    "news_id": 1006
-  },
-  {
-    "title": "دقایق فدرال رزرو نشان دهنده نگرانی فزاینده در مورد چشم انداز تورم است",
-    "summary": "صورتجلسه نشست سیاستی فدرال رزرو در ماه اکتبر نشان دهنده نگرانی فزاینده مقامات در مورد چشم انداز تورم است، حتی اگر آنها تصمیم گرفتند نرخ بهره را ثابت نگه دارند.",
-    "content": [
-      "صورتجلسه نشست سیاستی فدرال رزرو در ماه اکتبر نشان دهنده نگرانی فزاینده مقامات در مورد چشم انداز تورم است، حتی اگر آنها تصمیم گرفتند نرخ بهره را ثابت نگه دارند."
-    ],
-    "title_en": "Fed minutes show growing unease about the outlook for inflation",
-    "summary_en": "The minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.",
-    "content_en": [
-      "The minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady."
-    ],
-    "category": "forex_gold",
-    "link": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-43212358",
-    "timestamp": "2026-11-18T19:56:57.438128Z",
-    "news_id": 1005
-  },
-  {
-    "title": "من در 40 سالگی هستم. آیا در ازای نام بردن از شوهر یا فرزندم به عنوان ذینفع باید مستمری کمتری را بپذیرم؟",
-    "summary": "اگر من قبل از شوهرم بمیرم، او معادل 50 تا 66 درصد حقوق ماهیانه من مستمری مادام العمر دریافت می کند.",
-    "content": [
-      "اگر من قبل از شوهرم بمیرم، او معادل 50 تا 66 درصد حقوق ماهیانه من مستمری مادام العمر دریافت می کند."
-    ],
-    "title_en": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-    "summary_en": "“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”",
-    "content_en": [
-      "“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”"
-    ],
-    "category": "forex_gold",
-    "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-29241577",
-    "timestamp": "2026-11-18T19:56:59.570099Z",
-    "news_id": 1004
-  },
-  {
-    "title": "شوهرم با خوشحالی در 64 سالگی بازنشسته شده است و فکر می کند من باید به کار ادامه دهم. آیا او منصف است؟",
-    "summary": "\"من خسته هستم. زنگ ساعت 6 صبح به صدا در می آید و 50 دقیقه رفت و آمد دارم.\"",
-    "content": [
-      "\"من خسته هستم. زنگ ساعت 6 صبح به صدا در می آید و 50 دقیقه رفت و آمد دارم.\""
-    ],
-    "title_en": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-    "summary_en": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
-    "content_en": [
-      "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”"
-    ],
-    "category": "markets",
-    "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-04093243",
-    "timestamp": "2026-11-18T19:57:00.880195Z",
-    "news_id": 1003
-  },
-  {
-    "title": "\"GTA 6\" بزرگترین بازی تاریخ است. سهام، برنامه‌های تحویل و پادکست‌های Take-Two برای سفر همراه هستند.",
-    "summary": "\"Grand Theft Auto VI\" امتیاز 99 متاکریتیک را به دست آورده و نامزد بهترین بازی سال شده است. یکی از تحلیلگران گفت: واضح است که انتظار 13 ساله به هدر نرفت.",
-    "content": [
-      "\"Grand Theft Auto VI\" امتیاز 99 متاکریتیک را به دست آورده و نامزد بهترین بازی سال شده است. یکی از تحلیلگران گفت: واضح است که انتظار 13 ساله به هدر نرفت."
-    ],
-    "title_en": "‘GTA 6’ is the biggest game ever. Take-Two’s stock, delivery apps and podcasts are along for the ride.",
-    "summary_en": "“Grand Theft Auto VI” has racked up a Metacritic score of 99 and been nominated for Game of the Year already. “Clearly, the 13-year wait has not gone to waste,” one analyst said.",
-    "content_en": [
-      "“Grand Theft Auto VI” has racked up a Metacritic score of 99 and been nominated for Game of the Year already. “Clearly, the 13-year wait has not gone to waste,” one analyst said."
-    ],
-    "category": "forex_gold",
-    "link": "https://www.marketwatch.com/story/gta-6-is-the-biggest-game-ever-take-twos-stock-delivery-apps-and-podcasts-are-along-for-the-ride-71014bf2?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-10842370",
-    "timestamp": "2026-11-18T19:57:01.493221Z",
-    "news_id": 1002
-  },
-  {
-    "title": "\"کاملاً کثیف است\": برادرم زندگی و امور مالی مادر بیمار ما را به دست گرفت. چه کاری می توانم انجام دهم؟",
-    "summary": "زمانی که افرادی که باید به آنها اعتماد کنید تبدیل به افرادی می شوند که باید از خود محافظت کنید، ویرانگر است.",
-    "content": [
-      "زمانی که افرادی که باید به آنها اعتماد کنید تبدیل به افرادی می شوند که باید از خود محافظت کنید، ویرانگر است."
-    ],
-    "title_en": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
-    "summary_en": "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
-    "content_en": [
-      "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”"
-    ],
-    "category": "markets",
-    "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-    "image": "https://images.mktw.net/im-72281427",
-    "timestamp": "2026-11-18T19:57:02.131436Z",
-    "news_id": 1001
   }
 ]
