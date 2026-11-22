@@ -642,6 +642,7 @@
         emptySaved: 'هنوز خبری را نشان نکرده‌اید.',
         emptyFeed: 'خبری با این مشخصات یافت نشد.',
         syncing: 'در حال بروزرسانی آخرین اخبار اقتصاد جهان...',
+        updatedToast: 'اخبار اقتصاد جهان بروزرسانی شد',
         translating: 'در حال ترجمه به فارسی...',
         copiedToast: 'متن خبر برای اشتراک‌گذاری کپی شد',
         exitToast: 'جهت خروج از برنامه، یک‌بار دیگر دکمه بازگشت را بزنید',
@@ -680,6 +681,7 @@
         emptySaved: 'No bookmarked news yet.',
         emptyFeed: 'No matching economy news found.',
         syncing: 'Refreshing global economy news...',
+        updatedToast: 'Global economy news updated!',
         translating: 'Switching to English...',
         copiedToast: 'Article copied to clipboard!',
         exitToast: 'Press back again to exit Eco News',
@@ -906,22 +908,86 @@
       if (item.image && !item.image.includes("unsplash.com")) score += 25;
       return score + ((item.news_id || 1000) * 0.05);
     }
+    const PAGES_JSON_URL = `https://frankalayari-beep.github.io/econews/news.json`;
+    let isLoadingNews = false;
+
+    async function fetchJsonWithTimeout(url, ms = 7000) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), ms);
+      try {
+        const res = await fetch(url, { cache: 'no-store', signal: controller.signal });
+        if (!res.ok) return null;
+        const data = await res.json();
+        return Array.isArray(data) && data.length > 0 ? data : null;
+      } catch (e) {
+        return null;
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    function getMaxNewsId(list) {
+      if (!Array.isArray(list) || !list.length) return 0;
+      return Math.max(...list.map(item => Number(item.news_id) || 0));
+    }
 
     async function loadNews(manual = false) {
+      if (isLoadingNews) return;
+      isLoadingNews = true;
       const container = document.getElementById('app-content');
       const t = UI_TEXT[currentLang];
       if (manual) showToast(t.syncing);
+
       try {
-        const cacheBuster = manual ? Date.now() : Math.floor(Date.now() / 60000);
-        let res = await fetch(`${CDN_JSON_URL}?t=${cacheBuster}`);
-        if (!res.ok) {
-          res = await fetch(`${FALLBACK_JSON_URL}?t=${Date.now()}`);
+        const bust = `${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
+        const onlineSources = [
+          `${FALLBACK_JSON_URL}?t=${bust}`,
+          `${PAGES_JSON_URL}?t=${bust}`,
+          `${CDN_JSON_URL}?t=${bust}`
+        ];
+
+        let raw = null;
+        let fetchedOnline = false;
+
+        for (const url of onlineSources) {
+          const data = await fetchJsonWithTimeout(url, 7000);
+          if (data) {
+            raw = data;
+            fetchedOnline = true;
+            break;
+          }
         }
-        if (!res.ok) {
-          res = await fetch(`./news.json?t=${Date.now()}`);
+
+        if (fetchedOnline && raw) {
+          try {
+            localStorage.setItem('en_cached_news', JSON.stringify(raw));
+          } catch (e) {}
+        } else {
+          // در صورت قطعی اینترنت، از آخرین نسخه ذخیره شده یا فایل داخلی اپ استفاده کن
+          let cached = null;
+          try {
+            const c = JSON.parse(localStorage.getItem('en_cached_news') || 'null');
+            if (Array.isArray(c) && c.length > 0) cached = c;
+          } catch (e) {}
+
+          const localBundled = await fetchJsonWithTimeout(`./news.json?t=${bust}`, 5000);
+
+          if (cached && localBundled) {
+            raw = getMaxNewsId(cached) >= getMaxNewsId(localBundled) ? cached : localBundled;
+          } else {
+            raw = cached || localBundled;
+          }
         }
-        if (!res.ok) throw new Error();
-        const raw = await res.json();
+
+        if (!raw) {
+          if (!allNews.length) {
+            container.innerHTML = `<div class="status">${currentLang === 'fa' ? 'خطا در دریافت اخبار. لطفاً اینترنت خود را بررسی کرده و دکمه بروزرسانی را بزنید.' : 'Failed to load news. Please check your internet and tap refresh.'}</div>`;
+          } else if (manual) {
+            showToast(currentLang === 'fa' ? 'عدم دسترسی به اینترنت؛ آخرین اخبار ذخیره شده نمایش داده می‌شود' : 'Offline: showing cached news');
+          }
+          return;
+        }
+
         allNews = raw.map((item, idx) => ({
           ...item,
           news_id: item.news_id || (1000 + raw.length - idx),
@@ -931,8 +997,16 @@
           await ensureEnglishTranslations();
         }
         render();
-      } catch (e) {
-        container.innerHTML = `<div class="status">${t.syncing}</div>`;
+
+        if (manual) {
+          if (fetchedOnline) {
+            showToast(t.updatedToast);
+          } else {
+            showToast(currentLang === 'fa' ? 'اتصال به سرور برقرار نشد؛ نسخه آفلاین نمایش داده شد' : 'Could not reach server; showing offline news');
+          }
+        }
+      } finally {
+        isLoadingNews = false;
       }
     }
 
